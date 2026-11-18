@@ -70,91 +70,13 @@
           "response": [
             {
               "name": "201 ",
-              "originalRequest": {
-                "method": "POST",
-                "header": [
-                  {
-                    "key": "Content-Type",
-                    "value": "application/json"
-                  }
-                ],
-                "url": {
-                  "raw": "{{baseUrl}}/atletas",
-                  "host": [
-                    "{{baseUrl}}"
-                  ],
-                  "path": [
-                    "atletas"
-                  ]
-                },
-                "auth": {
-                  "type": "basic",
-                  "basic": [
-                    {
-                      "key": "username",
-                      "value": "{{usuarioProfessor}}",
-                      "type": "string"
-                    },
-                    {
-                      "key": "password",
-                      "value": "{{senhaProfessor}}",
-                      "type": "string"
-                    }
-                  ]
-                },
-                "body": {
-                  "mode": "raw",
-                  "raw": "{\n  \"nome\": \"Beatriz Souza\",\n  \"idade\": 21,\n  \"sexo\": \"FEMININO\",\n  \"peso\": 62.5,\n  \"altura\": 170,\n  \"percentualGordura\": 19,\n  \"objetivo\": \"Melhorar a resistência\",\n  \"fasePeriodizacao\": \"Base\"\n}",
-                  "options": {
-                    "raw": {
-                      "language": "json"
-                    }
-                  }
-                }
-              },
               "status": "",
               "code": 201,
               "_postman_previewlanguage": "json",
               "header": [
                 {
-                  "key": "X-Content-Type-Options",
-                  "value": "nosniff"
-                },
-                {
-                  "key": "X-XSS-Protection",
-                  "value": "0"
-                },
-                {
-                  "key": "Cache-Control",
-                  "value": "no-cache, no-store, max-age=0, must-revalidate"
-                },
-                {
-                  "key": "Pragma",
-                  "value": "no-cache"
-                },
-                {
-                  "key": "Expires",
-                  "value": "0"
-                },
-                {
-                  "key": "X-Frame-Options",
-                  "value": "DENY"
-                },
-                {
                   "key": "Content-Type",
                   "value": "application/json"
-                },
-                {
-                  "key": "Content-Length",
-                  "value": "175"
-                },
-                {
-                  "key": "Date",
-                  "value": "Wed, 18 Nov 2026 17:43:36 GMT"
-                },
-                {
-                  "key": "Connection",
-                  "value": "close"
                 }
               ],
               "cookie": [],
@@ -195,77 +117,13 @@
           "response": [
             {
               "name": "200 ",
-              "originalRequest": {
-                "method": "GET",
-                "header": [],
-                "url": {
-                  "raw": "{{baseUrl}}/atletas",
-                  "host": [
-                    "{{baseUrl}}"
-                  ],
-                  "path": [
-                    "atletas"
-                  ]
-                },
-                "auth": {
-                  "type": "basic",
-                  "basic": [
-                    {
-                      "key": "username",
-                      "value": "{{usuarioAluno}}",
-                      "type": "string"
-                    },
-                    {
-                      "key": "password",
-                      "value": "{{senhaAluno}}",
-                      "type": "string"
-                    }
-                  ]
-                }
-              },
               "status": "",
               "code": 200,
               "_postman_previewlanguage": "json",
               "header": [
                 {
-                  "key": "X-Content-Type-Options",
-                  "value": "nosniff"
-                },
-                {
-                  "key": "X-XSS-Protection",
-                  "value": "0"
-                },
-                {
-                  "key": "Cache-Control",
-                  "value": "no-cache, no-store, max-age=0, must-revalidate"
-                },
-                {
-                  "key": "Pragma",
-                  "value": "no-cache"
-                },
-                {
-                  "key": "Expires",
-                  "value": "0"
-                },
-                {
-                  "key": "X-Frame-Options",
-                  "value": "DENY"
-                },
-                {
                   "key": "Content-Type",
                   "value": "application/json"
-                },
-                {
-                  "key": "Content-Length",
-                  "value": "741"
-                },
-                {
-                  "key": "Date",
-                  "value": "Wed, 18 Nov 2026 17:43:37 GMT"
-                },
-                {
-                  "key": "Connection",
-                  "value": "close"
                 }
               ],
               "cookie": [],
@@ -307,78 +165,13 @@
           "response": [
             {
               "name": "200 ",
-              "originalRequest": {
-                "method": "GET",
-                "header": [],
-                "url": {
-                  "raw": "{{baseUrl}}/atletas/4",
-                  "host": [
-                    "{{baseUrl}}"
-                  ],
-                  "path": [
-                    "atletas",
-                    "4"
-                  ]
-                },
-                "auth": {
-                  "type": "basic",
-                  "basic": [
-                    {
-                      "key": "username",
-                      "value": "{{usuarioAluno}}",
-                      "type": "string"
-                    },
-                    {
-                      "key": "password",
-                      "value": "{{senhaAluno}}",
-                      "type": "string"
-                    }
-                  ]
-                }
-              },
               "status": "",
               "code": 200,
               "_postman_previewlanguage": "json",
               "header": [
                 {
-                  "key": "X-Content-Type-Options",
-                  "value": "nosniff"
-                },
-                {
-                  "key": "X-XSS-Protection",
-                  "value": "0"
-                },
-                {
-                  "key": "Cache-Control",
-                  "value": "no-cache, no-store, max-age=0, must-revalidate"
-                },
-                {
-                  "key": "Pragma",
-                  "value": "no-cache"
-                },
-                {
-                  "key": "Expires",
-                  "value": "0"
-                },
-                {
-                  "key": "X-Frame-Options",
-                  "value": "DENY"
-                },
-                {
                   "key": "Content-Type",
                   "value": "application/json"
-                },
-                {
-                  "key": "Content-Length",
-                  "value": "175"
-                },
-                {
-                  "key": "Date",
-                  "value": "Wed, 18 Nov 2026 17:43:37 GMT"
-                },
-                {
-                  "key": "Connection",
-                  "value": "close"
                 }
               ],
               "cookie": [],
@@ -434,92 +227,13 @@
           "response": [
             {
               "name": "200 ",
-              "originalRequest": {
-                "method": "PUT",
-                "header": [
-                  {
-                    "key": "Content-Type",
-                    "value": "application/json"
-                  }
-                ],
-                "url": {
-                  "raw": "{{baseUrl}}/atletas/4",
-                  "host": [
-                    "{{baseUrl}}"
-                  ],
-                  "path": [
-                    "atletas",
-                    "4"
-                  ]
-                },
-                "auth": {
-                  "type": "basic",
-                  "basic": [
-                    {
-                      "key": "username",
-                      "value": "{{usuarioProfessor}}",
-                      "type": "string"
-                    },
-                    {
-                      "key": "password",
-                      "value": "{{senhaProfessor}}",
-                      "type": "string"
-                    }
-                  ]
-                },
-                "body": {
-                  "mode": "raw",
-                  "raw": "{\n  \"nome\": \"Beatriz Souza\",\n  \"idade\": 21,\n  \"sexo\": \"FEMININO\",\n  \"peso\": 63.0,\n  \"altura\": 170,\n  \"percentualGordura\": 19,\n  \"objetivo\": \"Ganhar resistência\",\n  \"fasePeriodizacao\": \"Base\"\n}",
-                  "options": {
-                    "raw": {
-                      "language": "json"
-                    }
-                  }
-                }
-              },
               "status": "",
               "code": 200,
               "_postman_previewlanguage": "json",
               "header": [
                 {
-                  "key": "X-Content-Type-Options",
-                  "value": "nosniff"
-                },
-                {
-                  "key": "X-XSS-Protection",
-                  "value": "0"
-                },
-                {
-                  "key": "Cache-Control",
-                  "value": "no-cache, no-store, max-age=0, must-revalidate"
-                },
-                {
-                  "key": "Pragma",
-                  "value": "no-cache"
-                },
-                {
-                  "key": "Expires",
-                  "value": "0"
-                },
-                {
-                  "key": "X-Frame-Options",
-                  "value": "DENY"
-                },
-                {
                   "key": "Content-Type",
                   "value": "application/json"
-                },
-                {
-                  "key": "Content-Length",
-                  "value": "171"
-                },
-                {
-                  "key": "Date",
-                  "value": "Wed, 18 Nov 2026 17:43:37 GMT"
-                },
-                {
-                  "key": "Connection",
-                  "value": "close"
                 }
               ],
               "cookie": [],
@@ -561,72 +275,10 @@
           "response": [
             {
               "name": "204 ",
-              "originalRequest": {
-                "method": "DELETE",
-                "header": [],
-                "url": {
-                  "raw": "{{baseUrl}}/atletas/4",
-                  "host": [
-                    "{{baseUrl}}"
-                  ],
-                  "path": [
-                    "atletas",
-                    "4"
-                  ]
-                },
-                "auth": {
-                  "type": "basic",
-                  "basic": [
-                    {
-                      "key": "username",
-                      "value": "{{usuarioProfessor}}",
-                      "type": "string"
-                    },
-                    {
-                      "key": "password",
-                      "value": "{{senhaProfessor}}",
-                      "type": "string"
-                    }
-                  ]
-                }
-              },
               "status": "",
               "code": 204,
               "_postman_previewlanguage": "text",
-              "header": [
-                {
-                  "key": "X-Content-Type-Options",
-                  "value": "nosniff"
-                },
-                {
-                  "key": "X-XSS-Protection",
-                  "value": "0"
-                },
-                {
-                  "key": "Cache-Control",
-                  "value": "no-cache, no-store, max-age=0, must-revalidate"
-                },
-                {
-                  "key": "Pragma",
-                  "value": "no-cache"
-                },
-                {
-                  "key": "Expires",
-                  "value": "0"
-                },
-                {
-                  "key": "X-Frame-Options",
-                  "value": "DENY"
-                },
-                {
-                  "key": "Date",
-                  "value": "Wed, 18 Nov 2026 17:43:37 GMT"
-                },
-                {
-                  "key": "Connection",
-                  "value": "close"
-                }
-              ],
+              "header": [],
               "cookie": [],
               "body": ""
             }
@@ -684,91 +336,13 @@
           "response": [
             {
               "name": "201 ",
-              "originalRequest": {
-                "method": "POST",
-                "header": [
-                  {
-                    "key": "Content-Type",
-                    "value": "application/json"
-                  }
-                ],
-                "url": {
-                  "raw": "{{baseUrl}}/casos",
-                  "host": [
-                    "{{baseUrl}}"
-                  ],
-                  "path": [
-                    "casos"
-                  ]
-                },
-                "auth": {
-                  "type": "basic",
-                  "basic": [
-                    {
-                      "key": "username",
-                      "value": "{{usuarioProfessor}}",
-                      "type": "string"
-                    },
-                    {
-                      "key": "password",
-                      "value": "{{senhaProfessor}}",
-                      "type": "string"
-                    }
-                  ]
-                },
-                "body": {
-                  "mode": "raw",
-                  "raw": "{\n  \"titulo\": \"Ciclista em base aeróbia\",\n  \"modalidade\": \"Ciclismo\",\n  \"nivel\": \"INTERMEDIARIO\",\n  \"descricao\": \"Atleta com treinos longos aos fins de semana.\",\n  \"toleranciaDieta\": 10,\n  \"atletaId\": 1\n}",
-                  "options": {
-                    "raw": {
-                      "language": "json"
-                    }
-                  }
-                }
-              },
               "status": "",
               "code": 201,
               "_postman_previewlanguage": "json",
               "header": [
                 {
-                  "key": "X-Content-Type-Options",
-                  "value": "nosniff"
-                },
-                {
-                  "key": "X-XSS-Protection",
-                  "value": "0"
-                },
-                {
-                  "key": "Cache-Control",
-                  "value": "no-cache, no-store, max-age=0, must-revalidate"
-                },
-                {
-                  "key": "Pragma",
-                  "value": "no-cache"
-                },
-                {
-                  "key": "Expires",
-                  "value": "0"
-                },
-                {
-                  "key": "X-Frame-Options",
-                  "value": "DENY"
-                },
-                {
                   "key": "Content-Type",
                   "value": "application/json"
-                },
-                {
-                  "key": "Content-Length",
-                  "value": "380"
-                },
-                {
-                  "key": "Date",
-                  "value": "Wed, 18 Nov 2026 17:43:37 GMT"
-                },
-                {
-                  "key": "Connection",
-                  "value": "close"
                 }
               ],
               "cookie": [],
@@ -809,77 +383,13 @@
           "response": [
             {
               "name": "200 ",
-              "originalRequest": {
-                "method": "GET",
-                "header": [],
-                "url": {
-                  "raw": "{{baseUrl}}/casos",
-                  "host": [
-                    "{{baseUrl}}"
-                  ],
-                  "path": [
-                    "casos"
-                  ]
-                },
-                "auth": {
-                  "type": "basic",
-                  "basic": [
-                    {
-                      "key": "username",
-                      "value": "{{usuarioAluno}}",
-                      "type": "string"
-                    },
-                    {
-                      "key": "password",
-                      "value": "{{senhaAluno}}",
-                      "type": "string"
-                    }
-                  ]
-                }
-              },
               "status": "",
               "code": 200,
               "_postman_previewlanguage": "json",
               "header": [
                 {
-                  "key": "X-Content-Type-Options",
-                  "value": "nosniff"
-                },
-                {
-                  "key": "X-XSS-Protection",
-                  "value": "0"
-                },
-                {
-                  "key": "Cache-Control",
-                  "value": "no-cache, no-store, max-age=0, must-revalidate"
-                },
-                {
-                  "key": "Pragma",
-                  "value": "no-cache"
-                },
-                {
-                  "key": "Expires",
-                  "value": "0"
-                },
-                {
-                  "key": "X-Frame-Options",
-                  "value": "DENY"
-                },
-                {
                   "key": "Content-Type",
                   "value": "application/json"
-                },
-                {
-                  "key": "Content-Length",
-                  "value": "1500"
-                },
-                {
-                  "key": "Date",
-                  "value": "Wed, 18 Nov 2026 17:43:37 GMT"
-                },
-                {
-                  "key": "Connection",
-                  "value": "close"
                 }
               ],
               "cookie": [],
@@ -921,78 +431,13 @@
           "response": [
             {
               "name": "200 ",
-              "originalRequest": {
-                "method": "GET",
-                "header": [],
-                "url": {
-                  "raw": "{{baseUrl}}/casos/4",
-                  "host": [
-                    "{{baseUrl}}"
-                  ],
-                  "path": [
-                    "casos",
-                    "4"
-                  ]
-                },
-                "auth": {
-                  "type": "basic",
-                  "basic": [
-                    {
-                      "key": "username",
-                      "value": "{{usuarioAluno}}",
-                      "type": "string"
-                    },
-                    {
-                      "key": "password",
-                      "value": "{{senhaAluno}}",
-                      "type": "string"
-                    }
-                  ]
-                }
-              },
               "status": "",
               "code": 200,
               "_postman_previewlanguage": "json",
               "header": [
                 {
-                  "key": "X-Content-Type-Options",
-                  "value": "nosniff"
-                },
-                {
-                  "key": "X-XSS-Protection",
-                  "value": "0"
-                },
-                {
-                  "key": "Cache-Control",
-                  "value": "no-cache, no-store, max-age=0, must-revalidate"
-                },
-                {
-                  "key": "Pragma",
-                  "value": "no-cache"
-                },
-                {
-                  "key": "Expires",
-                  "value": "0"
-                },
-                {
-                  "key": "X-Frame-Options",
-                  "value": "DENY"
-                },
-                {
                   "key": "Content-Type",
                   "value": "application/json"
-                },
-                {
-                  "key": "Content-Length",
-                  "value": "380"
-                },
-                {
-                  "key": "Date",
-                  "value": "Wed, 18 Nov 2026 17:43:37 GMT"
-                },
-                {
-                  "key": "Connection",
-                  "value": "close"
                 }
               ],
               "cookie": [],
@@ -1048,92 +493,13 @@
           "response": [
             {
               "name": "200 ",
-              "originalRequest": {
-                "method": "PUT",
-                "header": [
-                  {
-                    "key": "Content-Type",
-                    "value": "application/json"
-                  }
-                ],
-                "url": {
-                  "raw": "{{baseUrl}}/casos/4",
-                  "host": [
-                    "{{baseUrl}}"
-                  ],
-                  "path": [
-                    "casos",
-                    "4"
-                  ]
-                },
-                "auth": {
-                  "type": "basic",
-                  "basic": [
-                    {
-                      "key": "username",
-                      "value": "{{usuarioProfessor}}",
-                      "type": "string"
-                    },
-                    {
-                      "key": "password",
-                      "value": "{{senhaProfessor}}",
-                      "type": "string"
-                    }
-                  ]
-                },
-                "body": {
-                  "mode": "raw",
-                  "raw": "{\n  \"titulo\": \"Ciclista em base aeróbia\",\n  \"modalidade\": \"Ciclismo\",\n  \"nivel\": \"AVANCADO\",\n  \"descricao\": \"Atleta com treinos longos aos fins de semana.\",\n  \"toleranciaDieta\": 8,\n  \"atletaId\": 1\n}",
-                  "options": {
-                    "raw": {
-                      "language": "json"
-                    }
-                  }
-                }
-              },
               "status": "",
               "code": 200,
               "_postman_previewlanguage": "json",
               "header": [
                 {
-                  "key": "X-Content-Type-Options",
-                  "value": "nosniff"
-                },
-                {
-                  "key": "X-XSS-Protection",
-                  "value": "0"
-                },
-                {
-                  "key": "Cache-Control",
-                  "value": "no-cache, no-store, max-age=0, must-revalidate"
-                },
-                {
-                  "key": "Pragma",
-                  "value": "no-cache"
-                },
-                {
-                  "key": "Expires",
-                  "value": "0"
-                },
-                {
-                  "key": "X-Frame-Options",
-                  "value": "DENY"
-                },
-                {
                   "key": "Content-Type",
                   "value": "application/json"
-                },
-                {
-                  "key": "Content-Length",
-                  "value": "374"
-                },
-                {
-                  "key": "Date",
-                  "value": "Wed, 18 Nov 2026 17:43:37 GMT"
-                },
-                {
-                  "key": "Connection",
-                  "value": "close"
                 }
               ],
               "cookie": [],
@@ -1175,72 +541,10 @@
           "response": [
             {
               "name": "204 ",
-              "originalRequest": {
-                "method": "DELETE",
-                "header": [],
-                "url": {
-                  "raw": "{{baseUrl}}/casos/4",
-                  "host": [
-                    "{{baseUrl}}"
-                  ],
-                  "path": [
-                    "casos",
-                    "4"
-                  ]
-                },
-                "auth": {
-                  "type": "basic",
-                  "basic": [
-                    {
-                      "key": "username",
-                      "value": "{{usuarioProfessor}}",
-                      "type": "string"
-                    },
-                    {
-                      "key": "password",
-                      "value": "{{senhaProfessor}}",
-                      "type": "string"
-                    }
-                  ]
-                }
-              },
               "status": "",
               "code": 204,
               "_postman_previewlanguage": "text",
-              "header": [
-                {
-                  "key": "X-Content-Type-Options",
-                  "value": "nosniff"
-                },
-                {
-                  "key": "X-XSS-Protection",
-                  "value": "0"
-                },
-                {
-                  "key": "Cache-Control",
-                  "value": "no-cache, no-store, max-age=0, must-revalidate"
-                },
-                {
-                  "key": "Pragma",
-                  "value": "no-cache"
-                },
-                {
-                  "key": "Expires",
-                  "value": "0"
-                },
-                {
-                  "key": "X-Frame-Options",
-                  "value": "DENY"
-                },
-                {
-                  "key": "Date",
-                  "value": "Wed, 18 Nov 2026 17:43:37 GMT"
-                },
-                {
-                  "key": "Connection",
-                  "value": "close"
-                }
-              ],
+              "header": [],
               "cookie": [],
               "body": ""
             }
@@ -1298,91 +602,13 @@
           "response": [
             {
               "name": "201 ",
-              "originalRequest": {
-                "method": "POST",
-                "header": [
-                  {
-                    "key": "Content-Type",
-                    "value": "application/json"
-                  }
-                ],
-                "url": {
-                  "raw": "{{baseUrl}}/alimentos",
-                  "host": [
-                    "{{baseUrl}}"
-                  ],
-                  "path": [
-                    "alimentos"
-                  ]
-                },
-                "auth": {
-                  "type": "basic",
-                  "basic": [
-                    {
-                      "key": "username",
-                      "value": "{{usuarioProfessor}}",
-                      "type": "string"
-                    },
-                    {
-                      "key": "password",
-                      "value": "{{senhaProfessor}}",
-                      "type": "string"
-                    }
-                  ]
-                },
-                "body": {
-                  "mode": "raw",
-                  "raw": "{\n  \"nome\": \"Batata-doce cozida\",\n  \"grupo\": \"Tubérculos\",\n  \"kcal\": 77,\n  \"carboidrato\": 18.4,\n  \"proteina\": 0.6,\n  \"gordura\": 0.1,\n  \"origem\": \"TACO\"\n}",
-                  "options": {
-                    "raw": {
-                      "language": "json"
-                    }
-                  }
-                }
-              },
               "status": "",
               "code": 201,
               "_postman_previewlanguage": "json",
               "header": [
                 {
-                  "key": "X-Content-Type-Options",
-                  "value": "nosniff"
-                },
-                {
-                  "key": "X-XSS-Protection",
-                  "value": "0"
-                },
-                {
-                  "key": "Cache-Control",
-                  "value": "no-cache, no-store, max-age=0, must-revalidate"
-                },
-                {
-                  "key": "Pragma",
-                  "value": "no-cache"
-                },
-                {
-                  "key": "Expires",
-                  "value": "0"
-                },
-                {
-                  "key": "X-Frame-Options",
-                  "value": "DENY"
-                },
-                {
                   "key": "Content-Type",
                   "value": "application/json"
-                },
-                {
-                  "key": "Content-Length",
-                  "value": "134"
-                },
-                {
-                  "key": "Date",
-                  "value": "Wed, 18 Nov 2026 17:43:38 GMT"
-                },
-                {
-                  "key": "Connection",
-                  "value": "close"
                 }
               ],
               "cookie": [],
@@ -1423,77 +649,13 @@
           "response": [
             {
               "name": "200 ",
-              "originalRequest": {
-                "method": "GET",
-                "header": [],
-                "url": {
-                  "raw": "{{baseUrl}}/alimentos",
-                  "host": [
-                    "{{baseUrl}}"
-                  ],
-                  "path": [
-                    "alimentos"
-                  ]
-                },
-                "auth": {
-                  "type": "basic",
-                  "basic": [
-                    {
-                      "key": "username",
-                      "value": "{{usuarioAluno}}",
-                      "type": "string"
-                    },
-                    {
-                      "key": "password",
-                      "value": "{{senhaAluno}}",
-                      "type": "string"
-                    }
-                  ]
-                }
-              },
               "status": "",
               "code": 200,
               "_postman_previewlanguage": "json",
               "header": [
                 {
-                  "key": "X-Content-Type-Options",
-                  "value": "nosniff"
-                },
-                {
-                  "key": "X-XSS-Protection",
-                  "value": "0"
-                },
-                {
-                  "key": "Cache-Control",
-                  "value": "no-cache, no-store, max-age=0, must-revalidate"
-                },
-                {
-                  "key": "Pragma",
-                  "value": "no-cache"
-                },
-                {
-                  "key": "Expires",
-                  "value": "0"
-                },
-                {
-                  "key": "X-Frame-Options",
-                  "value": "DENY"
-                },
-                {
                   "key": "Content-Type",
                   "value": "application/json"
-                },
-                {
-                  "key": "Content-Length",
-                  "value": "1077"
-                },
-                {
-                  "key": "Date",
-                  "value": "Wed, 18 Nov 2026 17:43:38 GMT"
-                },
-                {
-                  "key": "Connection",
-                  "value": "close"
                 }
               ],
               "cookie": [],
@@ -1535,78 +697,13 @@
           "response": [
             {
               "name": "200 ",
-              "originalRequest": {
-                "method": "GET",
-                "header": [],
-                "url": {
-                  "raw": "{{baseUrl}}/alimentos/8",
-                  "host": [
-                    "{{baseUrl}}"
-                  ],
-                  "path": [
-                    "alimentos",
-                    "8"
-                  ]
-                },
-                "auth": {
-                  "type": "basic",
-                  "basic": [
-                    {
-                      "key": "username",
-                      "value": "{{usuarioAluno}}",
-                      "type": "string"
-                    },
-                    {
-                      "key": "password",
-                      "value": "{{senhaAluno}}",
-                      "type": "string"
-                    }
-                  ]
-                }
-              },
               "status": "",
               "code": 200,
               "_postman_previewlanguage": "json",
               "header": [
                 {
-                  "key": "X-Content-Type-Options",
-                  "value": "nosniff"
-                },
-                {
-                  "key": "X-XSS-Protection",
-                  "value": "0"
-                },
-                {
-                  "key": "Cache-Control",
-                  "value": "no-cache, no-store, max-age=0, must-revalidate"
-                },
-                {
-                  "key": "Pragma",
-                  "value": "no-cache"
-                },
-                {
-                  "key": "Expires",
-                  "value": "0"
-                },
-                {
-                  "key": "X-Frame-Options",
-                  "value": "DENY"
-                },
-                {
                   "key": "Content-Type",
                   "value": "application/json"
-                },
-                {
-                  "key": "Content-Length",
-                  "value": "134"
-                },
-                {
-                  "key": "Date",
-                  "value": "Wed, 18 Nov 2026 17:43:38 GMT"
-                },
-                {
-                  "key": "Connection",
-                  "value": "close"
                 }
               ],
               "cookie": [],
@@ -1662,92 +759,13 @@
           "response": [
             {
               "name": "200 ",
-              "originalRequest": {
-                "method": "PUT",
-                "header": [
-                  {
-                    "key": "Content-Type",
-                    "value": "application/json"
-                  }
-                ],
-                "url": {
-                  "raw": "{{baseUrl}}/alimentos/8",
-                  "host": [
-                    "{{baseUrl}}"
-                  ],
-                  "path": [
-                    "alimentos",
-                    "8"
-                  ]
-                },
-                "auth": {
-                  "type": "basic",
-                  "basic": [
-                    {
-                      "key": "username",
-                      "value": "{{usuarioProfessor}}",
-                      "type": "string"
-                    },
-                    {
-                      "key": "password",
-                      "value": "{{senhaProfessor}}",
-                      "type": "string"
-                    }
-                  ]
-                },
-                "body": {
-                  "mode": "raw",
-                  "raw": "{\n  \"nome\": \"Batata-doce cozida\",\n  \"grupo\": \"Tubérculos\",\n  \"kcal\": 86,\n  \"carboidrato\": 20.1,\n  \"proteina\": 0.6,\n  \"gordura\": 0.1,\n  \"origem\": \"TACO\"\n}",
-                  "options": {
-                    "raw": {
-                      "language": "json"
-                    }
-                  }
-                }
-              },
               "status": "",
               "code": 200,
               "_postman_previewlanguage": "json",
               "header": [
                 {
-                  "key": "X-Content-Type-Options",
-                  "value": "nosniff"
-                },
-                {
-                  "key": "X-XSS-Protection",
-                  "value": "0"
-                },
-                {
-                  "key": "Cache-Control",
-                  "value": "no-cache, no-store, max-age=0, must-revalidate"
-                },
-                {
-                  "key": "Pragma",
-                  "value": "no-cache"
-                },
-                {
-                  "key": "Expires",
-                  "value": "0"
-                },
-                {
-                  "key": "X-Frame-Options",
-                  "value": "DENY"
-                },
-                {
                   "key": "Content-Type",
                   "value": "application/json"
-                },
-                {
-                  "key": "Content-Length",
-                  "value": "134"
-                },
-                {
-                  "key": "Date",
-                  "value": "Wed, 18 Nov 2026 17:43:38 GMT"
-                },
-                {
-                  "key": "Connection",
-                  "value": "close"
                 }
               ],
               "cookie": [],
@@ -1789,72 +807,10 @@
           "response": [
             {
               "name": "204 ",
-              "originalRequest": {
-                "method": "DELETE",
-                "header": [],
-                "url": {
-                  "raw": "{{baseUrl}}/alimentos/8",
-                  "host": [
-                    "{{baseUrl}}"
-                  ],
-                  "path": [
-                    "alimentos",
-                    "8"
-                  ]
-                },
-                "auth": {
-                  "type": "basic",
-                  "basic": [
-                    {
-                      "key": "username",
-                      "value": "{{usuarioProfessor}}",
-                      "type": "string"
-                    },
-                    {
-                      "key": "password",
-                      "value": "{{senhaProfessor}}",
-                      "type": "string"
-                    }
-                  ]
-                }
-              },
               "status": "",
               "code": 204,
               "_postman_previewlanguage": "text",
-              "header": [
-                {
-                  "key": "X-Content-Type-Options",
-                  "value": "nosniff"
-                },
-                {
-                  "key": "X-XSS-Protection",
-                  "value": "0"
-                },
-                {
-                  "key": "Cache-Control",
-                  "value": "no-cache, no-store, max-age=0, must-revalidate"
-                },
-                {
-                  "key": "Pragma",
-                  "value": "no-cache"
-                },
-                {
-                  "key": "Expires",
-                  "value": "0"
-                },
-                {
-                  "key": "X-Frame-Options",
-                  "value": "DENY"
-                },
-                {
-                  "key": "Date",
-                  "value": "Wed, 18 Nov 2026 17:43:38 GMT"
-                },
-                {
-                  "key": "Connection",
-                  "value": "close"
-                }
-              ],
+              "header": [],
               "cookie": [],
               "body": ""
             }
@@ -1912,91 +868,13 @@
           "response": [
             {
               "name": "201 ",
-              "originalRequest": {
-                "method": "POST",
-                "header": [
-                  {
-                    "key": "Content-Type",
-                    "value": "application/json"
-                  }
-                ],
-                "url": {
-                  "raw": "{{baseUrl}}/resolucoes",
-                  "host": [
-                    "{{baseUrl}}"
-                  ],
-                  "path": [
-                    "resolucoes"
-                  ]
-                },
-                "auth": {
-                  "type": "basic",
-                  "basic": [
-                    {
-                      "key": "username",
-                      "value": "{{usuarioAluno}}",
-                      "type": "string"
-                    },
-                    {
-                      "key": "password",
-                      "value": "{{senhaAluno}}",
-                      "type": "string"
-                    }
-                  ]
-                },
-                "body": {
-                  "mode": "raw",
-                  "raw": "{\n  \"casoId\": 3,\n  \"data\": \"2026-11-18\",\n  \"justificativa\": \"Alta demanda de carboidrato pelo volume de corrida.\",\n  \"metaKcal\": 3000,\n  \"metaCarboidrato\": 450,\n  \"metaProteina\": 120,\n  \"metaGordura\": 75\n}",
-                  "options": {
-                    "raw": {
-                      "language": "json"
-                    }
-                  }
-                }
-              },
               "status": "",
               "code": 201,
               "_postman_previewlanguage": "json",
               "header": [
                 {
-                  "key": "X-Content-Type-Options",
-                  "value": "nosniff"
-                },
-                {
-                  "key": "X-XSS-Protection",
-                  "value": "0"
-                },
-                {
-                  "key": "Cache-Control",
-                  "value": "no-cache, no-store, max-age=0, must-revalidate"
-                },
-                {
-                  "key": "Pragma",
-                  "value": "no-cache"
-                },
-                {
-                  "key": "Expires",
-                  "value": "0"
-                },
-                {
-                  "key": "X-Frame-Options",
-                  "value": "DENY"
-                },
-                {
                   "key": "Content-Type",
                   "value": "application/json"
-                },
-                {
-                  "key": "Content-Length",
-                  "value": "585"
-                },
-                {
-                  "key": "Date",
-                  "value": "Wed, 18 Nov 2026 17:43:38 GMT"
-                },
-                {
-                  "key": "Connection",
-                  "value": "close"
                 }
               ],
               "cookie": [],
@@ -2037,77 +915,13 @@
           "response": [
             {
               "name": "200 ",
-              "originalRequest": {
-                "method": "GET",
-                "header": [],
-                "url": {
-                  "raw": "{{baseUrl}}/resolucoes",
-                  "host": [
-                    "{{baseUrl}}"
-                  ],
-                  "path": [
-                    "resolucoes"
-                  ]
-                },
-                "auth": {
-                  "type": "basic",
-                  "basic": [
-                    {
-                      "key": "username",
-                      "value": "{{usuarioAluno}}",
-                      "type": "string"
-                    },
-                    {
-                      "key": "password",
-                      "value": "{{senhaAluno}}",
-                      "type": "string"
-                    }
-                  ]
-                }
-              },
               "status": "",
               "code": 200,
               "_postman_previewlanguage": "json",
               "header": [
                 {
-                  "key": "X-Content-Type-Options",
-                  "value": "nosniff"
-                },
-                {
-                  "key": "X-XSS-Protection",
-                  "value": "0"
-                },
-                {
-                  "key": "Cache-Control",
-                  "value": "no-cache, no-store, max-age=0, must-revalidate"
-                },
-                {
-                  "key": "Pragma",
-                  "value": "no-cache"
-                },
-                {
-                  "key": "Expires",
-                  "value": "0"
-                },
-                {
-                  "key": "X-Frame-Options",
-                  "value": "DENY"
-                },
-                {
                   "key": "Content-Type",
                   "value": "application/json"
-                },
-                {
-                  "key": "Content-Length",
-                  "value": "1804"
-                },
-                {
-                  "key": "Date",
-                  "value": "Wed, 18 Nov 2026 17:43:38 GMT"
-                },
-                {
-                  "key": "Connection",
-                  "value": "close"
                 }
               ],
               "cookie": [],
@@ -2149,78 +963,13 @@
           "response": [
             {
               "name": "200 ",
-              "originalRequest": {
-                "method": "GET",
-                "header": [],
-                "url": {
-                  "raw": "{{baseUrl}}/resolucoes/3",
-                  "host": [
-                    "{{baseUrl}}"
-                  ],
-                  "path": [
-                    "resolucoes",
-                    "3"
-                  ]
-                },
-                "auth": {
-                  "type": "basic",
-                  "basic": [
-                    {
-                      "key": "username",
-                      "value": "{{usuarioAluno}}",
-                      "type": "string"
-                    },
-                    {
-                      "key": "password",
-                      "value": "{{senhaAluno}}",
-                      "type": "string"
-                    }
-                  ]
-                }
-              },
               "status": "",
               "code": 200,
               "_postman_previewlanguage": "json",
               "header": [
                 {
-                  "key": "X-Content-Type-Options",
-                  "value": "nosniff"
-                },
-                {
-                  "key": "X-XSS-Protection",
-                  "value": "0"
-                },
-                {
-                  "key": "Cache-Control",
-                  "value": "no-cache, no-store, max-age=0, must-revalidate"
-                },
-                {
-                  "key": "Pragma",
-                  "value": "no-cache"
-                },
-                {
-                  "key": "Expires",
-                  "value": "0"
-                },
-                {
-                  "key": "X-Frame-Options",
-                  "value": "DENY"
-                },
-                {
                   "key": "Content-Type",
                   "value": "application/json"
-                },
-                {
-                  "key": "Content-Length",
-                  "value": "585"
-                },
-                {
-                  "key": "Date",
-                  "value": "Wed, 18 Nov 2026 17:43:38 GMT"
-                },
-                {
-                  "key": "Connection",
-                  "value": "close"
                 }
               ],
               "cookie": [],
@@ -2276,92 +1025,13 @@
           "response": [
             {
               "name": "200 ",
-              "originalRequest": {
-                "method": "PUT",
-                "header": [
-                  {
-                    "key": "Content-Type",
-                    "value": "application/json"
-                  }
-                ],
-                "url": {
-                  "raw": "{{baseUrl}}/resolucoes/3",
-                  "host": [
-                    "{{baseUrl}}"
-                  ],
-                  "path": [
-                    "resolucoes",
-                    "3"
-                  ]
-                },
-                "auth": {
-                  "type": "basic",
-                  "basic": [
-                    {
-                      "key": "username",
-                      "value": "{{usuarioAluno}}",
-                      "type": "string"
-                    },
-                    {
-                      "key": "password",
-                      "value": "{{senhaAluno}}",
-                      "type": "string"
-                    }
-                  ]
-                },
-                "body": {
-                  "mode": "raw",
-                  "raw": "{\n  \"casoId\": 3,\n  \"data\": \"2026-11-18\",\n  \"justificativa\": \"Alta demanda de carboidrato pelo volume de corrida.\",\n  \"metaKcal\": 3100,\n  \"metaCarboidrato\": 450,\n  \"metaProteina\": 120,\n  \"metaGordura\": 75\n}",
-                  "options": {
-                    "raw": {
-                      "language": "json"
-                    }
-                  }
-                }
-              },
               "status": "",
               "code": 200,
               "_postman_previewlanguage": "json",
               "header": [
                 {
-                  "key": "X-Content-Type-Options",
-                  "value": "nosniff"
-                },
-                {
-                  "key": "X-XSS-Protection",
-                  "value": "0"
-                },
-                {
-                  "key": "Cache-Control",
-                  "value": "no-cache, no-store, max-age=0, must-revalidate"
-                },
-                {
-                  "key": "Pragma",
-                  "value": "no-cache"
-                },
-                {
-                  "key": "Expires",
-                  "value": "0"
-                },
-                {
-                  "key": "X-Frame-Options",
-                  "value": "DENY"
-                },
-                {
                   "key": "Content-Type",
                   "value": "application/json"
-                },
-                {
-                  "key": "Content-Length",
-                  "value": "585"
-                },
-                {
-                  "key": "Date",
-                  "value": "Wed, 18 Nov 2026 17:43:38 GMT"
-                },
-                {
-                  "key": "Connection",
-                  "value": "close"
                 }
               ],
               "cookie": [],
@@ -2416,91 +1086,13 @@
           "response": [
             {
               "name": "201 ",
-              "originalRequest": {
-                "method": "POST",
-                "header": [
-                  {
-                    "key": "Content-Type",
-                    "value": "application/json"
-                  }
-                ],
-                "url": {
-                  "raw": "{{baseUrl}}/refeicoes",
-                  "host": [
-                    "{{baseUrl}}"
-                  ],
-                  "path": [
-                    "refeicoes"
-                  ]
-                },
-                "auth": {
-                  "type": "basic",
-                  "basic": [
-                    {
-                      "key": "username",
-                      "value": "{{usuarioAluno}}",
-                      "type": "string"
-                    },
-                    {
-                      "key": "password",
-                      "value": "{{senhaAluno}}",
-                      "type": "string"
-                    }
-                  ]
-                },
-                "body": {
-                  "mode": "raw",
-                  "raw": "{\n  \"resolucaoId\": 3,\n  \"nome\": \"Jantar\",\n  \"horario\": \"19:30\",\n  \"marcador\": \"POS_TREINO\"\n}",
-                  "options": {
-                    "raw": {
-                      "language": "json"
-                    }
-                  }
-                }
-              },
               "status": "",
               "code": 201,
               "_postman_previewlanguage": "json",
               "header": [
                 {
-                  "key": "X-Content-Type-Options",
-                  "value": "nosniff"
-                },
-                {
-                  "key": "X-XSS-Protection",
-                  "value": "0"
-                },
-                {
-                  "key": "Cache-Control",
-                  "value": "no-cache, no-store, max-age=0, must-revalidate"
-                },
-                {
-                  "key": "Pragma",
-                  "value": "no-cache"
-                },
-                {
-                  "key": "Expires",
-                  "value": "0"
-                },
-                {
-                  "key": "X-Frame-Options",
-                  "value": "DENY"
-                },
-                {
                   "key": "Content-Type",
                   "value": "application/json"
-                },
-                {
-                  "key": "Content-Length",
-                  "value": "667"
-                },
-                {
-                  "key": "Date",
-                  "value": "Wed, 18 Nov 2026 17:43:38 GMT"
-                },
-                {
-                  "key": "Connection",
-                  "value": "close"
                 }
               ],
               "cookie": [],
@@ -2547,83 +1139,13 @@
           "response": [
             {
               "name": "200 ",
-              "originalRequest": {
-                "method": "GET",
-                "header": [],
-                "url": {
-                  "raw": "{{baseUrl}}/refeicoes?resolucaoId=3",
-                  "host": [
-                    "{{baseUrl}}"
-                  ],
-                  "path": [
-                    "refeicoes"
-                  ],
-                  "query": [
-                    {
-                      "key": "resolucaoId",
-                      "value": "3"
-                    }
-                  ]
-                },
-                "auth": {
-                  "type": "basic",
-                  "basic": [
-                    {
-                      "key": "username",
-                      "value": "{{usuarioAluno}}",
-                      "type": "string"
-                    },
-                    {
-                      "key": "password",
-                      "value": "{{senhaAluno}}",
-                      "type": "string"
-                    }
-                  ]
-                }
-              },
               "status": "",
               "code": 200,
               "_postman_previewlanguage": "json",
               "header": [
                 {
-                  "key": "X-Content-Type-Options",
-                  "value": "nosniff"
-                },
-                {
-                  "key": "X-XSS-Protection",
-                  "value": "0"
-                },
-                {
-                  "key": "Cache-Control",
-                  "value": "no-cache, no-store, max-age=0, must-revalidate"
-                },
-                {
-                  "key": "Pragma",
-                  "value": "no-cache"
-                },
-                {
-                  "key": "Expires",
-                  "value": "0"
-                },
-                {
-                  "key": "X-Frame-Options",
-                  "value": "DENY"
-                },
-                {
                   "key": "Content-Type",
                   "value": "application/json"
-                },
-                {
-                  "key": "Content-Length",
-                  "value": "669"
-                },
-                {
-                  "key": "Date",
-                  "value": "Wed, 18 Nov 2026 17:43:39 GMT"
-                },
-                {
-                  "key": "Connection",
-                  "value": "close"
                 }
               ],
               "cookie": [],
@@ -2665,78 +1187,13 @@
           "response": [
             {
               "name": "200 ",
-              "originalRequest": {
-                "method": "GET",
-                "header": [],
-                "url": {
-                  "raw": "{{baseUrl}}/refeicoes/4",
-                  "host": [
-                    "{{baseUrl}}"
-                  ],
-                  "path": [
-                    "refeicoes",
-                    "4"
-                  ]
-                },
-                "auth": {
-                  "type": "basic",
-                  "basic": [
-                    {
-                      "key": "username",
-                      "value": "{{usuarioAluno}}",
-                      "type": "string"
-                    },
-                    {
-                      "key": "password",
-                      "value": "{{senhaAluno}}",
-                      "type": "string"
-                    }
-                  ]
-                }
-              },
               "status": "",
               "code": 200,
               "_postman_previewlanguage": "json",
               "header": [
                 {
-                  "key": "X-Content-Type-Options",
-                  "value": "nosniff"
-                },
-                {
-                  "key": "X-XSS-Protection",
-                  "value": "0"
-                },
-                {
-                  "key": "Cache-Control",
-                  "value": "no-cache, no-store, max-age=0, must-revalidate"
-                },
-                {
-                  "key": "Pragma",
-                  "value": "no-cache"
-                },
-                {
-                  "key": "Expires",
-                  "value": "0"
-                },
-                {
-                  "key": "X-Frame-Options",
-                  "value": "DENY"
-                },
-                {
                   "key": "Content-Type",
                   "value": "application/json"
-                },
-                {
-                  "key": "Content-Length",
-                  "value": "667"
-                },
-                {
-                  "key": "Date",
-                  "value": "Wed, 18 Nov 2026 17:43:39 GMT"
-                },
-                {
-                  "key": "Connection",
-                  "value": "close"
                 }
               ],
               "cookie": [],
@@ -2792,92 +1249,13 @@
           "response": [
             {
               "name": "200 ",
-              "originalRequest": {
-                "method": "PUT",
-                "header": [
-                  {
-                    "key": "Content-Type",
-                    "value": "application/json"
-                  }
-                ],
-                "url": {
-                  "raw": "{{baseUrl}}/refeicoes/4",
-                  "host": [
-                    "{{baseUrl}}"
-                  ],
-                  "path": [
-                    "refeicoes",
-                    "4"
-                  ]
-                },
-                "auth": {
-                  "type": "basic",
-                  "basic": [
-                    {
-                      "key": "username",
-                      "value": "{{usuarioAluno}}",
-                      "type": "string"
-                    },
-                    {
-                      "key": "password",
-                      "value": "{{senhaAluno}}",
-                      "type": "string"
-                    }
-                  ]
-                },
-                "body": {
-                  "mode": "raw",
-                  "raw": "{\n  \"resolucaoId\": 3,\n  \"nome\": \"Jantar pós-treino\",\n  \"horario\": \"20:00\",\n  \"marcador\": \"POS_TREINO\"\n}",
-                  "options": {
-                    "raw": {
-                      "language": "json"
-                    }
-                  }
-                }
-              },
               "status": "",
               "code": 200,
               "_postman_previewlanguage": "json",
               "header": [
                 {
-                  "key": "X-Content-Type-Options",
-                  "value": "nosniff"
-                },
-                {
-                  "key": "X-XSS-Protection",
-                  "value": "0"
-                },
-                {
-                  "key": "Cache-Control",
-                  "value": "no-cache, no-store, max-age=0, must-revalidate"
-                },
-                {
-                  "key": "Pragma",
-                  "value": "no-cache"
-                },
-                {
-                  "key": "Expires",
-                  "value": "0"
-                },
-                {
-                  "key": "X-Frame-Options",
-                  "value": "DENY"
-                },
-                {
                   "key": "Content-Type",
                   "value": "application/json"
-                },
-                {
-                  "key": "Content-Length",
-                  "value": "679"
-                },
-                {
-                  "key": "Date",
-                  "value": "Wed, 18 Nov 2026 17:43:39 GMT"
-                },
-                {
-                  "key": "Connection",
-                  "value": "close"
                 }
               ],
               "cookie": [],
@@ -2932,91 +1310,13 @@
           "response": [
             {
               "name": "201 ",
-              "originalRequest": {
-                "method": "POST",
-                "header": [
-                  {
-                    "key": "Content-Type",
-                    "value": "application/json"
-                  }
-                ],
-                "url": {
-                  "raw": "{{baseUrl}}/itens-refeicao",
-                  "host": [
-                    "{{baseUrl}}"
-                  ],
-                  "path": [
-                    "itens-refeicao"
-                  ]
-                },
-                "auth": {
-                  "type": "basic",
-                  "basic": [
-                    {
-                      "key": "username",
-                      "value": "{{usuarioAluno}}",
-                      "type": "string"
-                    },
-                    {
-                      "key": "password",
-                      "value": "{{senhaAluno}}",
-                      "type": "string"
-                    }
-                  ]
-                },
-                "body": {
-                  "mode": "raw",
-                  "raw": "{\n  \"refeicaoId\": 4,\n  \"alimentoId\": 1,\n  \"quantidadeGramas\": 250\n}",
-                  "options": {
-                    "raw": {
-                      "language": "json"
-                    }
-                  }
-                }
-              },
               "status": "",
               "code": 201,
               "_postman_previewlanguage": "json",
               "header": [
                 {
-                  "key": "X-Content-Type-Options",
-                  "value": "nosniff"
-                },
-                {
-                  "key": "X-XSS-Protection",
-                  "value": "0"
-                },
-                {
-                  "key": "Cache-Control",
-                  "value": "no-cache, no-store, max-age=0, must-revalidate"
-                },
-                {
-                  "key": "Pragma",
-                  "value": "no-cache"
-                },
-                {
-                  "key": "Expires",
-                  "value": "0"
-                },
-                {
-                  "key": "X-Frame-Options",
-                  "value": "DENY"
-                },
-                {
                   "key": "Content-Type",
                   "value": "application/json"
-                },
-                {
-                  "key": "Content-Length",
-                  "value": "868"
-                },
-                {
-                  "key": "Date",
-                  "value": "Wed, 18 Nov 2026 17:43:39 GMT"
-                },
-                {
-                  "key": "Connection",
-                  "value": "close"
                 }
               ],
               "cookie": [],
@@ -3063,83 +1363,13 @@
           "response": [
             {
               "name": "200 ",
-              "originalRequest": {
-                "method": "GET",
-                "header": [],
-                "url": {
-                  "raw": "{{baseUrl}}/itens-refeicao?refeicaoId=4",
-                  "host": [
-                    "{{baseUrl}}"
-                  ],
-                  "path": [
-                    "itens-refeicao"
-                  ],
-                  "query": [
-                    {
-                      "key": "refeicaoId",
-                      "value": "4"
-                    }
-                  ]
-                },
-                "auth": {
-                  "type": "basic",
-                  "basic": [
-                    {
-                      "key": "username",
-                      "value": "{{usuarioAluno}}",
-                      "type": "string"
-                    },
-                    {
-                      "key": "password",
-                      "value": "{{senhaAluno}}",
-                      "type": "string"
-                    }
-                  ]
-                }
-              },
               "status": "",
               "code": 200,
               "_postman_previewlanguage": "json",
               "header": [
                 {
-                  "key": "X-Content-Type-Options",
-                  "value": "nosniff"
-                },
-                {
-                  "key": "X-XSS-Protection",
-                  "value": "0"
-                },
-                {
-                  "key": "Cache-Control",
-                  "value": "no-cache, no-store, max-age=0, must-revalidate"
-                },
-                {
-                  "key": "Pragma",
-                  "value": "no-cache"
-                },
-                {
-                  "key": "Expires",
-                  "value": "0"
-                },
-                {
-                  "key": "X-Frame-Options",
-                  "value": "DENY"
-                },
-                {
                   "key": "Content-Type",
                   "value": "application/json"
-                },
-                {
-                  "key": "Content-Length",
-                  "value": "870"
-                },
-                {
-                  "key": "Date",
-                  "value": "Wed, 18 Nov 2026 17:43:39 GMT"
-                },
-                {
-                  "key": "Connection",
-                  "value": "close"
                 }
               ],
               "cookie": [],
@@ -3181,78 +1411,13 @@
           "response": [
             {
               "name": "200 ",
-              "originalRequest": {
-                "method": "GET",
-                "header": [],
-                "url": {
-                  "raw": "{{baseUrl}}/itens-refeicao/7",
-                  "host": [
-                    "{{baseUrl}}"
-                  ],
-                  "path": [
-                    "itens-refeicao",
-                    "7"
-                  ]
-                },
-                "auth": {
-                  "type": "basic",
-                  "basic": [
-                    {
-                      "key": "username",
-                      "value": "{{usuarioAluno}}",
-                      "type": "string"
-                    },
-                    {
-                      "key": "password",
-                      "value": "{{senhaAluno}}",
-                      "type": "string"
-                    }
-                  ]
-                }
-              },
               "status": "",
               "code": 200,
               "_postman_previewlanguage": "json",
               "header": [
                 {
-                  "key": "X-Content-Type-Options",
-                  "value": "nosniff"
-                },
-                {
-                  "key": "X-XSS-Protection",
-                  "value": "0"
-                },
-                {
-                  "key": "Cache-Control",
-                  "value": "no-cache, no-store, max-age=0, must-revalidate"
-                },
-                {
-                  "key": "Pragma",
-                  "value": "no-cache"
-                },
-                {
-                  "key": "Expires",
-                  "value": "0"
-                },
-                {
-                  "key": "X-Frame-Options",
-                  "value": "DENY"
-                },
-                {
                   "key": "Content-Type",
                   "value": "application/json"
-                },
-                {
-                  "key": "Content-Length",
-                  "value": "868"
-                },
-                {
-                  "key": "Date",
-                  "value": "Wed, 18 Nov 2026 17:43:39 GMT"
-                },
-                {
-                  "key": "Connection",
-                  "value": "close"
                 }
               ],
               "cookie": [],
@@ -3308,92 +1473,13 @@
           "response": [
             {
               "name": "200 ",
-              "originalRequest": {
-                "method": "PUT",
-                "header": [
-                  {
-                    "key": "Content-Type",
-                    "value": "application/json"
-                  }
-                ],
-                "url": {
-                  "raw": "{{baseUrl}}/itens-refeicao/7",
-                  "host": [
-                    "{{baseUrl}}"
-                  ],
-                  "path": [
-                    "itens-refeicao",
-                    "7"
-                  ]
-                },
-                "auth": {
-                  "type": "basic",
-                  "basic": [
-                    {
-                      "key": "username",
-                      "value": "{{usuarioAluno}}",
-                      "type": "string"
-                    },
-                    {
-                      "key": "password",
-                      "value": "{{senhaAluno}}",
-                      "type": "string"
-                    }
-                  ]
-                },
-                "body": {
-                  "mode": "raw",
-                  "raw": "{\n  \"refeicaoId\": 4,\n  \"alimentoId\": 1,\n  \"quantidadeGramas\": 300\n}",
-                  "options": {
-                    "raw": {
-                      "language": "json"
-                    }
-                  }
-                }
-              },
               "status": "",
               "code": 200,
               "_postman_previewlanguage": "json",
               "header": [
                 {
-                  "key": "X-Content-Type-Options",
-                  "value": "nosniff"
-                },
-                {
-                  "key": "X-XSS-Protection",
-                  "value": "0"
-                },
-                {
-                  "key": "Cache-Control",
-                  "value": "no-cache, no-store, max-age=0, must-revalidate"
-                },
-                {
-                  "key": "Pragma",
-                  "value": "no-cache"
-                },
-                {
-                  "key": "Expires",
-                  "value": "0"
-                },
-                {
-                  "key": "X-Frame-Options",
-                  "value": "DENY"
-                },
-                {
                   "key": "Content-Type",
                   "value": "application/json"
-                },
-                {
-                  "key": "Content-Length",
-                  "value": "868"
-                },
-                {
-                  "key": "Date",
-                  "value": "Wed, 18 Nov 2026 17:43:39 GMT"
-                },
-                {
-                  "key": "Connection",
-                  "value": "close"
                 }
               ],
               "cookie": [],
@@ -3435,72 +1521,10 @@
           "response": [
             {
               "name": "204 ",
-              "originalRequest": {
-                "method": "DELETE",
-                "header": [],
-                "url": {
-                  "raw": "{{baseUrl}}/itens-refeicao/7",
-                  "host": [
-                    "{{baseUrl}}"
-                  ],
-                  "path": [
-                    "itens-refeicao",
-                    "7"
-                  ]
-                },
-                "auth": {
-                  "type": "basic",
-                  "basic": [
-                    {
-                      "key": "username",
-                      "value": "{{usuarioAluno}}",
-                      "type": "string"
-                    },
-                    {
-                      "key": "password",
-                      "value": "{{senhaAluno}}",
-                      "type": "string"
-                    }
-                  ]
-                }
-              },
               "status": "",
               "code": 204,
               "_postman_previewlanguage": "text",
-              "header": [
-                {
-                  "key": "X-Content-Type-Options",
-                  "value": "nosniff"
-                },
-                {
-                  "key": "X-XSS-Protection",
-                  "value": "0"
-                },
-                {
-                  "key": "Cache-Control",
-                  "value": "no-cache, no-store, max-age=0, must-revalidate"
-                },
-                {
-                  "key": "Pragma",
-                  "value": "no-cache"
-                },
-                {
-                  "key": "Expires",
-                  "value": "0"
-                },
-                {
-                  "key": "X-Frame-Options",
-                  "value": "DENY"
-                },
-                {
-                  "key": "Date",
-                  "value": "Wed, 18 Nov 2026 17:43:39 GMT"
-                },
-                {
-                  "key": "Connection",
-                  "value": "close"
-                }
-              ],
+              "header": [],
               "cookie": [],
               "body": ""
             }
@@ -3540,72 +1564,10 @@
           "response": [
             {
               "name": "204 ",
-              "originalRequest": {
-                "method": "DELETE",
-                "header": [],
-                "url": {
-                  "raw": "{{baseUrl}}/refeicoes/4",
-                  "host": [
-                    "{{baseUrl}}"
-                  ],
-                  "path": [
-                    "refeicoes",
-                    "4"
-                  ]
-                },
-                "auth": {
-                  "type": "basic",
-                  "basic": [
-                    {
-                      "key": "username",
-                      "value": "{{usuarioAluno}}",
-                      "type": "string"
-                    },
-                    {
-                      "key": "password",
-                      "value": "{{senhaAluno}}",
-                      "type": "string"
-                    }
-                  ]
-                }
-              },
               "status": "",
               "code": 204,
               "_postman_previewlanguage": "text",
-              "header": [
-                {
-                  "key": "X-Content-Type-Options",
-                  "value": "nosniff"
-                },
-                {
-                  "key": "X-XSS-Protection",
-                  "value": "0"
-                },
-                {
-                  "key": "Cache-Control",
-                  "value": "no-cache, no-store, max-age=0, must-revalidate"
-                },
-                {
-                  "key": "Pragma",
-                  "value": "no-cache"
-                },
-                {
-                  "key": "Expires",
-                  "value": "0"
-                },
-                {
-                  "key": "X-Frame-Options",
-                  "value": "DENY"
-                },
-                {
-                  "key": "Date",
-                  "value": "Wed, 18 Nov 2026 17:43:39 GMT"
-                },
-                {
-                  "key": "Connection",
-                  "value": "close"
-                }
-              ],
+              "header": [],
               "cookie": [],
               "body": ""
             }
@@ -3645,72 +1607,10 @@
           "response": [
             {
               "name": "204 ",
-              "originalRequest": {
-                "method": "DELETE",
-                "header": [],
-                "url": {
-                  "raw": "{{baseUrl}}/resolucoes/3",
-                  "host": [
-                    "{{baseUrl}}"
-                  ],
-                  "path": [
-                    "resolucoes",
-                    "3"
-                  ]
-                },
-                "auth": {
-                  "type": "basic",
-                  "basic": [
-                    {
-                      "key": "username",
-                      "value": "{{usuarioAluno}}",
-                      "type": "string"
-                    },
-                    {
-                      "key": "password",
-                      "value": "{{senhaAluno}}",
-                      "type": "string"
-                    }
-                  ]
-                }
-              },
               "status": "",
               "code": 204,
               "_postman_previewlanguage": "text",
-              "header": [
-                {
-                  "key": "X-Content-Type-Options",
-                  "value": "nosniff"
-                },
-                {
-                  "key": "X-XSS-Protection",
-                  "value": "0"
-                },
-                {
-                  "key": "Cache-Control",
-                  "value": "no-cache, no-store, max-age=0, must-revalidate"
-                },
-                {
-                  "key": "Pragma",
-                  "value": "no-cache"
-                },
-                {
-                  "key": "Expires",
-                  "value": "0"
-                },
-                {
-                  "key": "X-Frame-Options",
-                  "value": "DENY"
-                },
-                {
-                  "key": "Date",
-                  "value": "Wed, 18 Nov 2026 17:43:39 GMT"
-                },
-                {
-                  "key": "Connection",
-                  "value": "close"
-                }
-              ],
+              "header": [],
               "cookie": [],
               "body": ""
             }
@@ -3765,88 +1665,13 @@
           "response": [
             {
               "name": "200 ",
-              "originalRequest": {
-                "method": "GET",
-                "header": [],
-                "url": {
-                  "raw": "{{baseUrl}}/casos/busca?nivel=INTERMEDIARIO&modalidade=fut",
-                  "host": [
-                    "{{baseUrl}}"
-                  ],
-                  "path": [
-                    "casos",
-                    "busca"
-                  ],
-                  "query": [
-                    {
-                      "key": "nivel",
-                      "value": "INTERMEDIARIO"
-                    },
-                    {
-                      "key": "modalidade",
-                      "value": "fut"
-                    }
-                  ]
-                },
-                "auth": {
-                  "type": "basic",
-                  "basic": [
-                    {
-                      "key": "username",
-                      "value": "{{usuarioAluno}}",
-                      "type": "string"
-                    },
-                    {
-                      "key": "password",
-                      "value": "{{senhaAluno}}",
-                      "type": "string"
-                    }
-                  ]
-                }
-              },
               "status": "",
               "code": 200,
               "_postman_previewlanguage": "json",
               "header": [
                 {
-                  "key": "X-Content-Type-Options",
-                  "value": "nosniff"
-                },
-                {
-                  "key": "X-XSS-Protection",
-                  "value": "0"
-                },
-                {
-                  "key": "Cache-Control",
-                  "value": "no-cache, no-store, max-age=0, must-revalidate"
-                },
-                {
-                  "key": "Pragma",
-                  "value": "no-cache"
-                },
-                {
-                  "key": "Expires",
-                  "value": "0"
-                },
-                {
-                  "key": "X-Frame-Options",
-                  "value": "DENY"
-                },
-                {
                   "key": "Content-Type",
                   "value": "application/json"
-                },
-                {
-                  "key": "Content-Length",
-                  "value": "378"
-                },
-                {
-                  "key": "Date",
-                  "value": "Wed, 18 Nov 2026 17:43:40 GMT"
-                },
-                {
-                  "key": "Connection",
-                  "value": "close"
                 }
               ],
               "cookie": [],
@@ -3894,84 +1719,13 @@
           "response": [
             {
               "name": "200 ",
-              "originalRequest": {
-                "method": "GET",
-                "header": [],
-                "url": {
-                  "raw": "{{baseUrl}}/alimentos/busca?nome=arroz",
-                  "host": [
-                    "{{baseUrl}}"
-                  ],
-                  "path": [
-                    "alimentos",
-                    "busca"
-                  ],
-                  "query": [
-                    {
-                      "key": "nome",
-                      "value": "arroz"
-                    }
-                  ]
-                },
-                "auth": {
-                  "type": "basic",
-                  "basic": [
-                    {
-                      "key": "username",
-                      "value": "{{usuarioAluno}}",
-                      "type": "string"
-                    },
-                    {
-                      "key": "password",
-                      "value": "{{senhaAluno}}",
-                      "type": "string"
-                    }
-                  ]
-                }
-              },
               "status": "",
               "code": 200,
               "_postman_previewlanguage": "json",
               "header": [
                 {
-                  "key": "X-Content-Type-Options",
-                  "value": "nosniff"
-                },
-                {
-                  "key": "X-XSS-Protection",
-                  "value": "0"
-                },
-                {
-                  "key": "Cache-Control",
-                  "value": "no-cache, no-store, max-age=0, must-revalidate"
-                },
-                {
-                  "key": "Pragma",
-                  "value": "no-cache"
-                },
-                {
-                  "key": "Expires",
-                  "value": "0"
-                },
-                {
-                  "key": "X-Frame-Options",
-                  "value": "DENY"
-                },
-                {
                   "key": "Content-Type",
                   "value": "application/json"
-                },
-                {
-                  "key": "Content-Length",
-                  "value": "134"
-                },
-                {
-                  "key": "Date",
-                  "value": "Wed, 18 Nov 2026 17:43:40 GMT"
-                },
-                {
-                  "key": "Connection",
-                  "value": "close"
                 }
               ],
               "cookie": [],
@@ -4020,85 +1774,13 @@
           "response": [
             {
               "name": "200 ",
-              "originalRequest": {
-                "method": "GET",
-                "header": [],
-                "url": {
-                  "raw": "{{baseUrl}}/casos/1/resolucoes?status=SUBMETIDA",
-                  "host": [
-                    "{{baseUrl}}"
-                  ],
-                  "path": [
-                    "casos",
-                    "1",
-                    "resolucoes"
-                  ],
-                  "query": [
-                    {
-                      "key": "status",
-                      "value": "SUBMETIDA"
-                    }
-                  ]
-                },
-                "auth": {
-                  "type": "basic",
-                  "basic": [
-                    {
-                      "key": "username",
-                      "value": "{{usuarioAluno}}",
-                      "type": "string"
-                    },
-                    {
-                      "key": "password",
-                      "value": "{{senhaAluno}}",
-                      "type": "string"
-                    }
-                  ]
-                }
-              },
               "status": "",
               "code": 200,
               "_postman_previewlanguage": "json",
               "header": [
                 {
-                  "key": "X-Content-Type-Options",
-                  "value": "nosniff"
-                },
-                {
-                  "key": "X-XSS-Protection",
-                  "value": "0"
-                },
-                {
-                  "key": "Cache-Control",
-                  "value": "no-cache, no-store, max-age=0, must-revalidate"
-                },
-                {
-                  "key": "Pragma",
-                  "value": "no-cache"
-                },
-                {
-                  "key": "Expires",
-                  "value": "0"
-                },
-                {
-                  "key": "X-Frame-Options",
-                  "value": "DENY"
-                },
-                {
                   "key": "Content-Type",
                   "value": "application/json"
-                },
-                {
-                  "key": "Content-Length",
-                  "value": "620"
-                },
-                {
-                  "key": "Date",
-                  "value": "Wed, 18 Nov 2026 17:43:40 GMT"
-                },
-                {
-                  "key": "Connection",
-                  "value": "close"
                 }
               ],
               "cookie": [],
@@ -4145,78 +1827,13 @@
           "response": [
             {
               "name": "409 ",
-              "originalRequest": {
-                "method": "DELETE",
-                "header": [],
-                "url": {
-                  "raw": "{{baseUrl}}/casos/1",
-                  "host": [
-                    "{{baseUrl}}"
-                  ],
-                  "path": [
-                    "casos",
-                    "1"
-                  ]
-                },
-                "auth": {
-                  "type": "basic",
-                  "basic": [
-                    {
-                      "key": "username",
-                      "value": "{{usuarioProfessor}}",
-                      "type": "string"
-                    },
-                    {
-                      "key": "password",
-                      "value": "{{senhaProfessor}}",
-                      "type": "string"
-                    }
-                  ]
-                }
-              },
               "status": "",
               "code": 409,
               "_postman_previewlanguage": "json",
               "header": [
                 {
-                  "key": "X-Content-Type-Options",
-                  "value": "nosniff"
-                },
-                {
-                  "key": "X-XSS-Protection",
-                  "value": "0"
-                },
-                {
-                  "key": "Cache-Control",
-                  "value": "no-cache, no-store, max-age=0, must-revalidate"
-                },
-                {
-                  "key": "Pragma",
-                  "value": "no-cache"
-                },
-                {
-                  "key": "Expires",
-                  "value": "0"
-                },
-                {
-                  "key": "X-Frame-Options",
-                  "value": "DENY"
-                },
-                {
                   "key": "Content-Type",
                   "value": "application/json"
-                },
-                {
-                  "key": "Transfer-Encoding",
-                  "value": "chunked"
-                },
-                {
-                  "key": "Date",
-                  "value": "Wed, 18 Nov 2026 17:43:40 GMT"
-                },
-                {
-                  "key": "Connection",
-                  "value": "close"
                 }
               ],
               "cookie": [],
@@ -4258,78 +1875,13 @@
           "response": [
             {
               "name": "409 ",
-              "originalRequest": {
-                "method": "DELETE",
-                "header": [],
-                "url": {
-                  "raw": "{{baseUrl}}/atletas/1",
-                  "host": [
-                    "{{baseUrl}}"
-                  ],
-                  "path": [
-                    "atletas",
-                    "1"
-                  ]
-                },
-                "auth": {
-                  "type": "basic",
-                  "basic": [
-                    {
-                      "key": "username",
-                      "value": "{{usuarioProfessor}}",
-                      "type": "string"
-                    },
-                    {
-                      "key": "password",
-                      "value": "{{senhaProfessor}}",
-                      "type": "string"
-                    }
-                  ]
-                }
-              },
               "status": "",
               "code": 409,
               "_postman_previewlanguage": "json",
               "header": [
                 {
-                  "key": "X-Content-Type-Options",
-                  "value": "nosniff"
-                },
-                {
-                  "key": "X-XSS-Protection",
-                  "value": "0"
-                },
-                {
-                  "key": "Cache-Control",
-                  "value": "no-cache, no-store, max-age=0, must-revalidate"
-                },
-                {
-                  "key": "Pragma",
-                  "value": "no-cache"
-                },
-                {
-                  "key": "Expires",
-                  "value": "0"
-                },
-                {
-                  "key": "X-Frame-Options",
-                  "value": "DENY"
-                },
-                {
                   "key": "Content-Type",
                   "value": "application/json"
-                },
-                {
-                  "key": "Transfer-Encoding",
-                  "value": "chunked"
-                },
-                {
-                  "key": "Date",
-                  "value": "Wed, 18 Nov 2026 17:43:40 GMT"
-                },
-                {
-                  "key": "Connection",
-                  "value": "close"
                 }
               ],
               "cookie": [],
@@ -4371,78 +1923,13 @@
           "response": [
             {
               "name": "409 ",
-              "originalRequest": {
-                "method": "DELETE",
-                "header": [],
-                "url": {
-                  "raw": "{{baseUrl}}/alimentos/1",
-                  "host": [
-                    "{{baseUrl}}"
-                  ],
-                  "path": [
-                    "alimentos",
-                    "1"
-                  ]
-                },
-                "auth": {
-                  "type": "basic",
-                  "basic": [
-                    {
-                      "key": "username",
-                      "value": "{{usuarioProfessor}}",
-                      "type": "string"
-                    },
-                    {
-                      "key": "password",
-                      "value": "{{senhaProfessor}}",
-                      "type": "string"
-                    }
-                  ]
-                }
-              },
               "status": "",
               "code": 409,
               "_postman_previewlanguage": "json",
               "header": [
                 {
-                  "key": "X-Content-Type-Options",
-                  "value": "nosniff"
-                },
-                {
-                  "key": "X-XSS-Protection",
-                  "value": "0"
-                },
-                {
-                  "key": "Cache-Control",
-                  "value": "no-cache, no-store, max-age=0, must-revalidate"
-                },
-                {
-                  "key": "Pragma",
-                  "value": "no-cache"
-                },
-                {
-                  "key": "Expires",
-                  "value": "0"
-                },
-                {
-                  "key": "X-Frame-Options",
-                  "value": "DENY"
-                },
-                {
                   "key": "Content-Type",
                   "value": "application/json"
-                },
-                {
-                  "key": "Transfer-Encoding",
-                  "value": "chunked"
-                },
-                {
-                  "key": "Date",
-                  "value": "Wed, 18 Nov 2026 17:43:40 GMT"
-                },
-                {
-                  "key": "Connection",
-                  "value": "close"
                 }
               ],
               "cookie": [],
@@ -4498,92 +1985,13 @@
           "response": [
             {
               "name": "409 ",
-              "originalRequest": {
-                "method": "PUT",
-                "header": [
-                  {
-                    "key": "Content-Type",
-                    "value": "application/json"
-                  }
-                ],
-                "url": {
-                  "raw": "{{baseUrl}}/resolucoes/2",
-                  "host": [
-                    "{{baseUrl}}"
-                  ],
-                  "path": [
-                    "resolucoes",
-                    "2"
-                  ]
-                },
-                "auth": {
-                  "type": "basic",
-                  "basic": [
-                    {
-                      "key": "username",
-                      "value": "{{usuarioAluno}}",
-                      "type": "string"
-                    },
-                    {
-                      "key": "password",
-                      "value": "{{senhaAluno}}",
-                      "type": "string"
-                    }
-                  ]
-                },
-                "body": {
-                  "mode": "raw",
-                  "raw": "{\n  \"casoId\": 1,\n  \"justificativa\": \"Tentando alterar depois de submeter\"\n}",
-                  "options": {
-                    "raw": {
-                      "language": "json"
-                    }
-                  }
-                }
-              },
               "status": "",
               "code": 409,
               "_postman_previewlanguage": "json",
               "header": [
                 {
-                  "key": "X-Content-Type-Options",
-                  "value": "nosniff"
-                },
-                {
-                  "key": "X-XSS-Protection",
-                  "value": "0"
-                },
-                {
-                  "key": "Cache-Control",
-                  "value": "no-cache, no-store, max-age=0, must-revalidate"
-                },
-                {
-                  "key": "Pragma",
-                  "value": "no-cache"
-                },
-                {
-                  "key": "Expires",
-                  "value": "0"
-                },
-                {
-                  "key": "X-Frame-Options",
-                  "value": "DENY"
-                },
-                {
                   "key": "Content-Type",
                   "value": "application/json"
-                },
-                {
-                  "key": "Transfer-Encoding",
-                  "value": "chunked"
-                },
-                {
-                  "key": "Date",
-                  "value": "Wed, 18 Nov 2026 17:43:40 GMT"
-                },
-                {
-                  "key": "Connection",
-                  "value": "close"
                 }
               ],
               "cookie": [],
@@ -4638,91 +2046,13 @@
           "response": [
             {
               "name": "409 ",
-              "originalRequest": {
-                "method": "POST",
-                "header": [
-                  {
-                    "key": "Content-Type",
-                    "value": "application/json"
-                  }
-                ],
-                "url": {
-                  "raw": "{{baseUrl}}/refeicoes",
-                  "host": [
-                    "{{baseUrl}}"
-                  ],
-                  "path": [
-                    "refeicoes"
-                  ]
-                },
-                "auth": {
-                  "type": "basic",
-                  "basic": [
-                    {
-                      "key": "username",
-                      "value": "{{usuarioAluno}}",
-                      "type": "string"
-                    },
-                    {
-                      "key": "password",
-                      "value": "{{senhaAluno}}",
-                      "type": "string"
-                    }
-                  ]
-                },
-                "body": {
-                  "mode": "raw",
-                  "raw": "{\n  \"resolucaoId\": 2,\n  \"nome\": \"Ceia\",\n  \"horario\": \"22:00\"\n}",
-                  "options": {
-                    "raw": {
-                      "language": "json"
-                    }
-                  }
-                }
-              },
               "status": "",
               "code": 409,
               "_postman_previewlanguage": "json",
               "header": [
                 {
-                  "key": "X-Content-Type-Options",
-                  "value": "nosniff"
-                },
-                {
-                  "key": "X-XSS-Protection",
-                  "value": "0"
-                },
-                {
-                  "key": "Cache-Control",
-                  "value": "no-cache, no-store, max-age=0, must-revalidate"
-                },
-                {
-                  "key": "Pragma",
-                  "value": "no-cache"
-                },
-                {
-                  "key": "Expires",
-                  "value": "0"
-                },
-                {
-                  "key": "X-Frame-Options",
-                  "value": "DENY"
-                },
-                {
                   "key": "Content-Type",
                   "value": "application/json"
-                },
-                {
-                  "key": "Transfer-Encoding",
-                  "value": "chunked"
-                },
-                {
-                  "key": "Date",
-                  "value": "Wed, 18 Nov 2026 17:43:40 GMT"
-                },
-                {
-                  "key": "Connection",
-                  "value": "close"
                 }
               ],
               "cookie": [],
@@ -4777,91 +2107,13 @@
           "response": [
             {
               "name": "201 ",
-              "originalRequest": {
-                "method": "POST",
-                "header": [
-                  {
-                    "key": "Content-Type",
-                    "value": "application/json"
-                  }
-                ],
-                "url": {
-                  "raw": "{{baseUrl}}/resolucoes",
-                  "host": [
-                    "{{baseUrl}}"
-                  ],
-                  "path": [
-                    "resolucoes"
-                  ]
-                },
-                "auth": {
-                  "type": "basic",
-                  "basic": [
-                    {
-                      "key": "username",
-                      "value": "{{usuarioAluno}}",
-                      "type": "string"
-                    },
-                    {
-                      "key": "password",
-                      "value": "{{senhaAluno}}",
-                      "type": "string"
-                    }
-                  ]
-                },
-                "body": {
-                  "mode": "raw",
-                  "raw": "{\n  \"casoId\": 3,\n  \"data\": \"2026-11-18\",\n  \"justificativa\": \"Alta demanda de carboidrato pelo volume de corrida.\",\n  \"metaKcal\": 3000,\n  \"metaCarboidrato\": 450,\n  \"metaProteina\": 120,\n  \"metaGordura\": 75\n}",
-                  "options": {
-                    "raw": {
-                      "language": "json"
-                    }
-                  }
-                }
-              },
               "status": "",
               "code": 201,
               "_postman_previewlanguage": "json",
               "header": [
                 {
-                  "key": "X-Content-Type-Options",
-                  "value": "nosniff"
-                },
-                {
-                  "key": "X-XSS-Protection",
-                  "value": "0"
-                },
-                {
-                  "key": "Cache-Control",
-                  "value": "no-cache, no-store, max-age=0, must-revalidate"
-                },
-                {
-                  "key": "Pragma",
-                  "value": "no-cache"
-                },
-                {
-                  "key": "Expires",
-                  "value": "0"
-                },
-                {
-                  "key": "X-Frame-Options",
-                  "value": "DENY"
-                },
-                {
                   "key": "Content-Type",
                   "value": "application/json"
-                },
-                {
-                  "key": "Content-Length",
-                  "value": "585"
-                },
-                {
-                  "key": "Date",
-                  "value": "Wed, 18 Nov 2026 17:43:40 GMT"
-                },
-                {
-                  "key": "Connection",
-                  "value": "close"
                 }
               ],
               "cookie": [],
@@ -4904,79 +2156,13 @@
           "response": [
             {
               "name": "409 ",
-              "originalRequest": {
-                "method": "POST",
-                "header": [],
-                "url": {
-                  "raw": "{{baseUrl}}/resolucoes/4/submeter",
-                  "host": [
-                    "{{baseUrl}}"
-                  ],
-                  "path": [
-                    "resolucoes",
-                    "4",
-                    "submeter"
-                  ]
-                },
-                "auth": {
-                  "type": "basic",
-                  "basic": [
-                    {
-                      "key": "username",
-                      "value": "{{usuarioAluno}}",
-                      "type": "string"
-                    },
-                    {
-                      "key": "password",
-                      "value": "{{senhaAluno}}",
-                      "type": "string"
-                    }
-                  ]
-                }
-              },
               "status": "",
               "code": 409,
               "_postman_previewlanguage": "json",
               "header": [
                 {
-                  "key": "X-Content-Type-Options",
-                  "value": "nosniff"
-                },
-                {
-                  "key": "X-XSS-Protection",
-                  "value": "0"
-                },
-                {
-                  "key": "Cache-Control",
-                  "value": "no-cache, no-store, max-age=0, must-revalidate"
-                },
-                {
-                  "key": "Pragma",
-                  "value": "no-cache"
-                },
-                {
-                  "key": "Expires",
-                  "value": "0"
-                },
-                {
-                  "key": "X-Frame-Options",
-                  "value": "DENY"
-                },
-                {
                   "key": "Content-Type",
                   "value": "application/json"
-                },
-                {
-                  "key": "Transfer-Encoding",
-                  "value": "chunked"
-                },
-                {
-                  "key": "Date",
-                  "value": "Wed, 18 Nov 2026 17:43:40 GMT"
-                },
-                {
-                  "key": "Connection",
-                  "value": "close"
                 }
               ],
               "cookie": [],
@@ -5036,91 +2222,13 @@
           "response": [
             {
               "name": "400 ",
-              "originalRequest": {
-                "method": "POST",
-                "header": [
-                  {
-                    "key": "Content-Type",
-                    "value": "application/json"
-                  }
-                ],
-                "url": {
-                  "raw": "{{baseUrl}}/atletas",
-                  "host": [
-                    "{{baseUrl}}"
-                  ],
-                  "path": [
-                    "atletas"
-                  ]
-                },
-                "auth": {
-                  "type": "basic",
-                  "basic": [
-                    {
-                      "key": "username",
-                      "value": "{{usuarioProfessor}}",
-                      "type": "string"
-                    },
-                    {
-                      "key": "password",
-                      "value": "{{senhaProfessor}}",
-                      "type": "string"
-                    }
-                  ]
-                },
-                "body": {
-                  "mode": "raw",
-                  "raw": "{\n  \"nome\": \"\",\n  \"idade\": 5,\n  \"sexo\": \"FEMININO\",\n  \"peso\": -1,\n  \"altura\": 170\n}",
-                  "options": {
-                    "raw": {
-                      "language": "json"
-                    }
-                  }
-                }
-              },
               "status": "",
               "code": 400,
               "_postman_previewlanguage": "json",
               "header": [
                 {
-                  "key": "X-Content-Type-Options",
-                  "value": "nosniff"
-                },
-                {
-                  "key": "X-XSS-Protection",
-                  "value": "0"
-                },
-                {
-                  "key": "Cache-Control",
-                  "value": "no-cache, no-store, max-age=0, must-revalidate"
-                },
-                {
-                  "key": "Pragma",
-                  "value": "no-cache"
-                },
-                {
-                  "key": "Expires",
-                  "value": "0"
-                },
-                {
-                  "key": "X-Frame-Options",
-                  "value": "DENY"
-                },
-                {
                   "key": "Content-Type",
                   "value": "application/json"
-                },
-                {
-                  "key": "Transfer-Encoding",
-                  "value": "chunked"
-                },
-                {
-                  "key": "Date",
-                  "value": "Wed, 18 Nov 2026 17:43:41 GMT"
-                },
-                {
-                  "key": "Connection",
-                  "value": "close"
                 }
               ],
               "cookie": [],
@@ -5175,91 +2283,13 @@
           "response": [
             {
               "name": "400 ",
-              "originalRequest": {
-                "method": "POST",
-                "header": [
-                  {
-                    "key": "Content-Type",
-                    "value": "application/json"
-                  }
-                ],
-                "url": {
-                  "raw": "{{baseUrl}}/itens-refeicao",
-                  "host": [
-                    "{{baseUrl}}"
-                  ],
-                  "path": [
-                    "itens-refeicao"
-                  ]
-                },
-                "auth": {
-                  "type": "basic",
-                  "basic": [
-                    {
-                      "key": "username",
-                      "value": "{{usuarioAluno}}",
-                      "type": "string"
-                    },
-                    {
-                      "key": "password",
-                      "value": "{{senhaAluno}}",
-                      "type": "string"
-                    }
-                  ]
-                },
-                "body": {
-                  "mode": "raw",
-                  "raw": "{\n  \"refeicaoId\": 1,\n  \"alimentoId\": 1,\n  \"quantidadeGramas\": -50\n}",
-                  "options": {
-                    "raw": {
-                      "language": "json"
-                    }
-                  }
-                }
-              },
               "status": "",
               "code": 400,
               "_postman_previewlanguage": "json",
               "header": [
                 {
-                  "key": "X-Content-Type-Options",
-                  "value": "nosniff"
-                },
-                {
-                  "key": "X-XSS-Protection",
-                  "value": "0"
-                },
-                {
-                  "key": "Cache-Control",
-                  "value": "no-cache, no-store, max-age=0, must-revalidate"
-                },
-                {
-                  "key": "Pragma",
-                  "value": "no-cache"
-                },
-                {
-                  "key": "Expires",
-                  "value": "0"
-                },
-                {
-                  "key": "X-Frame-Options",
-                  "value": "DENY"
-                },
-                {
                   "key": "Content-Type",
                   "value": "application/json"
-                },
-                {
-                  "key": "Transfer-Encoding",
-                  "value": "chunked"
-                },
-                {
-                  "key": "Date",
-                  "value": "Wed, 18 Nov 2026 17:43:41 GMT"
-                },
-                {
-                  "key": "Connection",
-                  "value": "close"
                 }
               ],
               "cookie": [],
@@ -5314,91 +2344,13 @@
           "response": [
             {
               "name": "400 ",
-              "originalRequest": {
-                "method": "POST",
-                "header": [
-                  {
-                    "key": "Content-Type",
-                    "value": "application/json"
-                  }
-                ],
-                "url": {
-                  "raw": "{{baseUrl}}/casos",
-                  "host": [
-                    "{{baseUrl}}"
-                  ],
-                  "path": [
-                    "casos"
-                  ]
-                },
-                "auth": {
-                  "type": "basic",
-                  "basic": [
-                    {
-                      "key": "username",
-                      "value": "{{usuarioProfessor}}",
-                      "type": "string"
-                    },
-                    {
-                      "key": "password",
-                      "value": "{{senhaProfessor}}",
-                      "type": "string"
-                    }
-                  ]
-                },
-                "body": {
-                  "mode": "raw",
-                  "raw": "{\n  \"titulo\": \"Ciclista em base aeróbia\",\n  \"modalidade\": \"Ciclismo\",\n  \"nivel\": \"EXPERT\",\n  \"descricao\": \"Atleta com treinos longos aos fins de semana.\",\n  \"toleranciaDieta\": 10,\n  \"atletaId\": 1\n}",
-                  "options": {
-                    "raw": {
-                      "language": "json"
-                    }
-                  }
-                }
-              },
               "status": "",
               "code": 400,
               "_postman_previewlanguage": "json",
               "header": [
                 {
-                  "key": "X-Content-Type-Options",
-                  "value": "nosniff"
-                },
-                {
-                  "key": "X-XSS-Protection",
-                  "value": "0"
-                },
-                {
-                  "key": "Cache-Control",
-                  "value": "no-cache, no-store, max-age=0, must-revalidate"
-                },
-                {
-                  "key": "Pragma",
-                  "value": "no-cache"
-                },
-                {
-                  "key": "Expires",
-                  "value": "0"
-                },
-                {
-                  "key": "X-Frame-Options",
-                  "value": "DENY"
-                },
-                {
                   "key": "Content-Type",
                   "value": "application/json"
-                },
-                {
-                  "key": "Transfer-Encoding",
-                  "value": "chunked"
-                },
-                {
-                  "key": "Date",
-                  "value": "Wed, 18 Nov 2026 17:43:41 GMT"
-                },
-                {
-                  "key": "Connection",
-                  "value": "close"
                 }
               ],
               "cookie": [],
@@ -5445,78 +2397,13 @@
           "response": [
             {
               "name": "404 ",
-              "originalRequest": {
-                "method": "GET",
-                "header": [],
-                "url": {
-                  "raw": "{{baseUrl}}/casos/9999",
-                  "host": [
-                    "{{baseUrl}}"
-                  ],
-                  "path": [
-                    "casos",
-                    "9999"
-                  ]
-                },
-                "auth": {
-                  "type": "basic",
-                  "basic": [
-                    {
-                      "key": "username",
-                      "value": "{{usuarioAluno}}",
-                      "type": "string"
-                    },
-                    {
-                      "key": "password",
-                      "value": "{{senhaAluno}}",
-                      "type": "string"
-                    }
-                  ]
-                }
-              },
               "status": "",
               "code": 404,
               "_postman_previewlanguage": "json",
               "header": [
                 {
-                  "key": "X-Content-Type-Options",
-                  "value": "nosniff"
-                },
-                {
-                  "key": "X-XSS-Protection",
-                  "value": "0"
-                },
-                {
-                  "key": "Cache-Control",
-                  "value": "no-cache, no-store, max-age=0, must-revalidate"
-                },
-                {
-                  "key": "Pragma",
-                  "value": "no-cache"
-                },
-                {
-                  "key": "Expires",
-                  "value": "0"
-                },
-                {
-                  "key": "X-Frame-Options",
-                  "value": "DENY"
-                },
-                {
                   "key": "Content-Type",
                   "value": "application/json"
-                },
-                {
-                  "key": "Transfer-Encoding",
-                  "value": "chunked"
-                },
-                {
-                  "key": "Date",
-                  "value": "Wed, 18 Nov 2026 17:43:41 GMT"
-                },
-                {
-                  "key": "Connection",
-                  "value": "close"
                 }
               ],
               "cookie": [],
@@ -5572,92 +2459,13 @@
           "response": [
             {
               "name": "404 ",
-              "originalRequest": {
-                "method": "PUT",
-                "header": [
-                  {
-                    "key": "Content-Type",
-                    "value": "application/json"
-                  }
-                ],
-                "url": {
-                  "raw": "{{baseUrl}}/alimentos/9999",
-                  "host": [
-                    "{{baseUrl}}"
-                  ],
-                  "path": [
-                    "alimentos",
-                    "9999"
-                  ]
-                },
-                "auth": {
-                  "type": "basic",
-                  "basic": [
-                    {
-                      "key": "username",
-                      "value": "{{usuarioProfessor}}",
-                      "type": "string"
-                    },
-                    {
-                      "key": "password",
-                      "value": "{{senhaProfessor}}",
-                      "type": "string"
-                    }
-                  ]
-                },
-                "body": {
-                  "mode": "raw",
-                  "raw": "{\n  \"nome\": \"Batata-doce cozida\",\n  \"grupo\": \"Tubérculos\",\n  \"kcal\": 77,\n  \"carboidrato\": 18.4,\n  \"proteina\": 0.6,\n  \"gordura\": 0.1,\n  \"origem\": \"TACO\"\n}",
-                  "options": {
-                    "raw": {
-                      "language": "json"
-                    }
-                  }
-                }
-              },
               "status": "",
               "code": 404,
               "_postman_previewlanguage": "json",
               "header": [
                 {
-                  "key": "X-Content-Type-Options",
-                  "value": "nosniff"
-                },
-                {
-                  "key": "X-XSS-Protection",
-                  "value": "0"
-                },
-                {
-                  "key": "Cache-Control",
-                  "value": "no-cache, no-store, max-age=0, must-revalidate"
-                },
-                {
-                  "key": "Pragma",
-                  "value": "no-cache"
-                },
-                {
-                  "key": "Expires",
-                  "value": "0"
-                },
-                {
-                  "key": "X-Frame-Options",
-                  "value": "DENY"
-                },
-                {
                   "key": "Content-Type",
                   "value": "application/json"
-                },
-                {
-                  "key": "Transfer-Encoding",
-                  "value": "chunked"
-                },
-                {
-                  "key": "Date",
-                  "value": "Wed, 18 Nov 2026 17:43:41 GMT"
-                },
-                {
-                  "key": "Connection",
-                  "value": "close"
                 }
               ],
               "cookie": [],
@@ -5712,91 +2520,13 @@
           "response": [
             {
               "name": "404 ",
-              "originalRequest": {
-                "method": "POST",
-                "header": [
-                  {
-                    "key": "Content-Type",
-                    "value": "application/json"
-                  }
-                ],
-                "url": {
-                  "raw": "{{baseUrl}}/casos",
-                  "host": [
-                    "{{baseUrl}}"
-                  ],
-                  "path": [
-                    "casos"
-                  ]
-                },
-                "auth": {
-                  "type": "basic",
-                  "basic": [
-                    {
-                      "key": "username",
-                      "value": "{{usuarioProfessor}}",
-                      "type": "string"
-                    },
-                    {
-                      "key": "password",
-                      "value": "{{senhaProfessor}}",
-                      "type": "string"
-                    }
-                  ]
-                },
-                "body": {
-                  "mode": "raw",
-                  "raw": "{\n  \"titulo\": \"Ciclista em base aeróbia\",\n  \"modalidade\": \"Ciclismo\",\n  \"nivel\": \"INTERMEDIARIO\",\n  \"descricao\": \"Atleta com treinos longos aos fins de semana.\",\n  \"toleranciaDieta\": 10,\n  \"atletaId\": 9999\n}",
-                  "options": {
-                    "raw": {
-                      "language": "json"
-                    }
-                  }
-                }
-              },
               "status": "",
               "code": 404,
               "_postman_previewlanguage": "json",
               "header": [
                 {
-                  "key": "X-Content-Type-Options",
-                  "value": "nosniff"
-                },
-                {
-                  "key": "X-XSS-Protection",
-                  "value": "0"
-                },
-                {
-                  "key": "Cache-Control",
-                  "value": "no-cache, no-store, max-age=0, must-revalidate"
-                },
-                {
-                  "key": "Pragma",
-                  "value": "no-cache"
-                },
-                {
-                  "key": "Expires",
-                  "value": "0"
-                },
-                {
-                  "key": "X-Frame-Options",
-                  "value": "DENY"
-                },
-                {
                   "key": "Content-Type",
                   "value": "application/json"
-                },
-                {
-                  "key": "Transfer-Encoding",
-                  "value": "chunked"
-                },
-                {
-                  "key": "Date",
-                  "value": "Wed, 18 Nov 2026 17:43:41 GMT"
-                },
-                {
-                  "key": "Connection",
-                  "value": "close"
                 }
               ],
               "cookie": [],
@@ -5842,77 +2572,13 @@
           "response": [
             {
               "name": "200 ",
-              "originalRequest": {
-                "method": "GET",
-                "header": [],
-                "url": {
-                  "raw": "{{baseUrl}}/casos",
-                  "host": [
-                    "{{baseUrl}}"
-                  ],
-                  "path": [
-                    "casos"
-                  ]
-                },
-                "auth": {
-                  "type": "basic",
-                  "basic": [
-                    {
-                      "key": "username",
-                      "value": "{{usuarioAluno}}",
-                      "type": "string"
-                    },
-                    {
-                      "key": "password",
-                      "value": "{{senhaAluno}}",
-                      "type": "string"
-                    }
-                  ]
-                }
-              },
               "status": "",
               "code": 200,
               "_postman_previewlanguage": "json",
               "header": [
                 {
-                  "key": "X-Content-Type-Options",
-                  "value": "nosniff"
-                },
-                {
-                  "key": "X-XSS-Protection",
-                  "value": "0"
-                },
-                {
-                  "key": "Cache-Control",
-                  "value": "no-cache, no-store, max-age=0, must-revalidate"
-                },
-                {
-                  "key": "Pragma",
-                  "value": "no-cache"
-                },
-                {
-                  "key": "Expires",
-                  "value": "0"
-                },
-                {
-                  "key": "X-Frame-Options",
-                  "value": "DENY"
-                },
-                {
                   "key": "Content-Type",
                   "value": "application/json"
-                },
-                {
-                  "key": "Content-Length",
-                  "value": "1119"
-                },
-                {
-                  "key": "Date",
-                  "value": "Wed, 18 Nov 2026 17:43:41 GMT"
-                },
-                {
-                  "key": "Connection",
-                  "value": "close"
                 }
               ],
               "cookie": [],
@@ -5953,77 +2619,13 @@
           "response": [
             {
               "name": "200 ",
-              "originalRequest": {
-                "method": "GET",
-                "header": [],
-                "url": {
-                  "raw": "{{baseUrl}}/atletas",
-                  "host": [
-                    "{{baseUrl}}"
-                  ],
-                  "path": [
-                    "atletas"
-                  ]
-                },
-                "auth": {
-                  "type": "basic",
-                  "basic": [
-                    {
-                      "key": "username",
-                      "value": "{{usuarioProfessor}}",
-                      "type": "string"
-                    },
-                    {
-                      "key": "password",
-                      "value": "{{senhaProfessor}}",
-                      "type": "string"
-                    }
-                  ]
-                }
-              },
               "status": "",
               "code": 200,
               "_postman_previewlanguage": "json",
               "header": [
                 {
-                  "key": "X-Content-Type-Options",
-                  "value": "nosniff"
-                },
-                {
-                  "key": "X-XSS-Protection",
-                  "value": "0"
-                },
-                {
-                  "key": "Cache-Control",
-                  "value": "no-cache, no-store, max-age=0, must-revalidate"
-                },
-                {
-                  "key": "Pragma",
-                  "value": "no-cache"
-                },
-                {
-                  "key": "Expires",
-                  "value": "0"
-                },
-                {
-                  "key": "X-Frame-Options",
-                  "value": "DENY"
-                },
-                {
                   "key": "Content-Type",
                   "value": "application/json"
-                },
-                {
-                  "key": "Content-Length",
-                  "value": "565"
-                },
-                {
-                  "key": "Date",
-                  "value": "Wed, 18 Nov 2026 17:43:41 GMT"
-                },
-                {
-                  "key": "Connection",
-                  "value": "close"
                 }
               ],
               "cookie": [],
@@ -6052,69 +2654,13 @@
           "response": [
             {
               "name": "401 ",
-              "originalRequest": {
-                "method": "GET",
-                "header": [],
-                "url": {
-                  "raw": "{{baseUrl}}/casos",
-                  "host": [
-                    "{{baseUrl}}"
-                  ],
-                  "path": [
-                    "casos"
-                  ]
-                },
-                "auth": {
-                  "type": "noauth"
-                }
-              },
               "status": "",
               "code": 401,
               "_postman_previewlanguage": "json",
               "header": [
                 {
-                  "key": "WWW-Authenticate",
-                  "value": "Basic realm=\"NutriCase\""
-                },
-                {
-                  "key": "X-Content-Type-Options",
-                  "value": "nosniff"
-                },
-                {
-                  "key": "X-XSS-Protection",
-                  "value": "0"
-                },
-                {
-                  "key": "Cache-Control",
-                  "value": "no-cache, no-store, max-age=0, must-revalidate"
-                },
-                {
-                  "key": "Pragma",
-                  "value": "no-cache"
-                },
-                {
-                  "key": "Expires",
-                  "value": "0"
-                },
-                {
-                  "key": "X-Frame-Options",
-                  "value": "DENY"
-                },
-                {
                   "key": "Content-Type",
                   "value": "application/json;charset=UTF-8"
-                },
-                {
-                  "key": "Content-Length",
-                  "value": "178"
-                },
-                {
-                  "key": "Date",
-                  "value": "Wed, 18 Nov 2026 17:43:41 GMT"
-                },
-                {
-                  "key": "Connection",
-                  "value": "close"
                 }
               ],
               "cookie": [],
@@ -6155,81 +2701,13 @@
           "response": [
             {
               "name": "401 ",
-              "originalRequest": {
-                "method": "GET",
-                "header": [],
-                "url": {
-                  "raw": "{{baseUrl}}/casos",
-                  "host": [
-                    "{{baseUrl}}"
-                  ],
-                  "path": [
-                    "casos"
-                  ]
-                },
-                "auth": {
-                  "type": "basic",
-                  "basic": [
-                    {
-                      "key": "username",
-                      "value": "{{usuarioAluno}}",
-                      "type": "string"
-                    },
-                    {
-                      "key": "password",
-                      "value": "senhaErrada",
-                      "type": "string"
-                    }
-                  ]
-                }
-              },
               "status": "",
               "code": 401,
               "_postman_previewlanguage": "json",
               "header": [
                 {
-                  "key": "WWW-Authenticate",
-                  "value": "Basic realm=\"Realm\", charset=\"UTF-8\""
-                },
-                {
-                  "key": "X-Content-Type-Options",
-                  "value": "nosniff"
-                },
-                {
-                  "key": "X-XSS-Protection",
-                  "value": "0"
-                },
-                {
-                  "key": "Cache-Control",
-                  "value": "no-cache, no-store, max-age=0, must-revalidate"
-                },
-                {
-                  "key": "Pragma",
-                  "value": "no-cache"
-                },
-                {
-                  "key": "Expires",
-                  "value": "0"
-                },
-                {
-                  "key": "X-Frame-Options",
-                  "value": "DENY"
-                },
-                {
                   "key": "Content-Type",
                   "value": "application/json"
-                },
-                {
-                  "key": "Transfer-Encoding",
-                  "value": "chunked"
-                },
-                {
-                  "key": "Date",
-                  "value": "Wed, 18 Nov 2026 17:43:41 GMT"
-                },
-                {
-                  "key": "Connection",
-                  "value": "close"
                 }
               ],
               "cookie": [],
@@ -6284,91 +2762,13 @@
           "response": [
             {
               "name": "403 ",
-              "originalRequest": {
-                "method": "POST",
-                "header": [
-                  {
-                    "key": "Content-Type",
-                    "value": "application/json"
-                  }
-                ],
-                "url": {
-                  "raw": "{{baseUrl}}/atletas",
-                  "host": [
-                    "{{baseUrl}}"
-                  ],
-                  "path": [
-                    "atletas"
-                  ]
-                },
-                "auth": {
-                  "type": "basic",
-                  "basic": [
-                    {
-                      "key": "username",
-                      "value": "{{usuarioAluno}}",
-                      "type": "string"
-                    },
-                    {
-                      "key": "password",
-                      "value": "{{senhaAluno}}",
-                      "type": "string"
-                    }
-                  ]
-                },
-                "body": {
-                  "mode": "raw",
-                  "raw": "{\n  \"nome\": \"Beatriz Souza\",\n  \"idade\": 21,\n  \"sexo\": \"FEMININO\",\n  \"peso\": 62.5,\n  \"altura\": 170,\n  \"percentualGordura\": 19,\n  \"objetivo\": \"Melhorar a resistência\",\n  \"fasePeriodizacao\": \"Base\"\n}",
-                  "options": {
-                    "raw": {
-                      "language": "json"
-                    }
-                  }
-                }
-              },
               "status": "",
               "code": 403,
               "_postman_previewlanguage": "json",
               "header": [
                 {
-                  "key": "X-Content-Type-Options",
-                  "value": "nosniff"
-                },
-                {
-                  "key": "X-XSS-Protection",
-                  "value": "0"
-                },
-                {
-                  "key": "Cache-Control",
-                  "value": "no-cache, no-store, max-age=0, must-revalidate"
-                },
-                {
-                  "key": "Pragma",
-                  "value": "no-cache"
-                },
-                {
-                  "key": "Expires",
-                  "value": "0"
-                },
-                {
-                  "key": "X-Frame-Options",
-                  "value": "DENY"
-                },
-                {
                   "key": "Content-Type",
                   "value": "application/json;charset=UTF-8"
-                },
-                {
-                  "key": "Content-Length",
-                  "value": "152"
-                },
-                {
-                  "key": "Date",
-                  "value": "Wed, 18 Nov 2026 17:43:41 GMT"
-                },
-                {
-                  "key": "Connection",
-                  "value": "close"
                 }
               ],
               "cookie": [],
@@ -6410,78 +2810,13 @@
           "response": [
             {
               "name": "403 ",
-              "originalRequest": {
-                "method": "DELETE",
-                "header": [],
-                "url": {
-                  "raw": "{{baseUrl}}/casos/3",
-                  "host": [
-                    "{{baseUrl}}"
-                  ],
-                  "path": [
-                    "casos",
-                    "3"
-                  ]
-                },
-                "auth": {
-                  "type": "basic",
-                  "basic": [
-                    {
-                      "key": "username",
-                      "value": "{{usuarioAluno}}",
-                      "type": "string"
-                    },
-                    {
-                      "key": "password",
-                      "value": "{{senhaAluno}}",
-                      "type": "string"
-                    }
-                  ]
-                }
-              },
               "status": "",
               "code": 403,
               "_postman_previewlanguage": "json",
               "header": [
                 {
-                  "key": "X-Content-Type-Options",
-                  "value": "nosniff"
-                },
-                {
-                  "key": "X-XSS-Protection",
-                  "value": "0"
-                },
-                {
-                  "key": "Cache-Control",
-                  "value": "no-cache, no-store, max-age=0, must-revalidate"
-                },
-                {
-                  "key": "Pragma",
-                  "value": "no-cache"
-                },
-                {
-                  "key": "Expires",
-                  "value": "0"
-                },
-                {
-                  "key": "X-Frame-Options",
-                  "value": "DENY"
-                },
-                {
                   "key": "Content-Type",
                   "value": "application/json;charset=UTF-8"
-                },
-                {
-                  "key": "Content-Length",
-                  "value": "152"
-                },
-                {
-                  "key": "Date",
-                  "value": "Wed, 18 Nov 2026 17:43:42 GMT"
-                },
-                {
-                  "key": "Connection",
-                  "value": "close"
                 }
               ],
               "cookie": [],
@@ -6529,79 +2864,13 @@
           "response": [
             {
               "name": "200 ",
-              "originalRequest": {
-                "method": "GET",
-                "header": [],
-                "url": {
-                  "raw": "{{baseUrl}}/resolucoes/1/avaliacao",
-                  "host": [
-                    "{{baseUrl}}"
-                  ],
-                  "path": [
-                    "resolucoes",
-                    "1",
-                    "avaliacao"
-                  ]
-                },
-                "auth": {
-                  "type": "basic",
-                  "basic": [
-                    {
-                      "key": "username",
-                      "value": "{{usuarioAluno}}",
-                      "type": "string"
-                    },
-                    {
-                      "key": "password",
-                      "value": "{{senhaAluno}}",
-                      "type": "string"
-                    }
-                  ]
-                }
-              },
               "status": "",
               "code": 200,
               "_postman_previewlanguage": "json",
               "header": [
                 {
-                  "key": "X-Content-Type-Options",
-                  "value": "nosniff"
-                },
-                {
-                  "key": "X-XSS-Protection",
-                  "value": "0"
-                },
-                {
-                  "key": "Cache-Control",
-                  "value": "no-cache, no-store, max-age=0, must-revalidate"
-                },
-                {
-                  "key": "Pragma",
-                  "value": "no-cache"
-                },
-                {
-                  "key": "Expires",
-                  "value": "0"
-                },
-                {
-                  "key": "X-Frame-Options",
-                  "value": "DENY"
-                },
-                {
                   "key": "Content-Type",
                   "value": "application/json"
-                },
-                {
-                  "key": "Content-Length",
-                  "value": "543"
-                },
-                {
-                  "key": "Date",
-                  "value": "Wed, 18 Nov 2026 17:43:42 GMT"
-                },
-                {
-                  "key": "Connection",
-                  "value": "close"
                 }
               ],
               "cookie": [],
@@ -6644,79 +2913,13 @@
           "response": [
             {
               "name": "200 ",
-              "originalRequest": {
-                "method": "POST",
-                "header": [],
-                "url": {
-                  "raw": "{{baseUrl}}/resolucoes/1/submeter",
-                  "host": [
-                    "{{baseUrl}}"
-                  ],
-                  "path": [
-                    "resolucoes",
-                    "1",
-                    "submeter"
-                  ]
-                },
-                "auth": {
-                  "type": "basic",
-                  "basic": [
-                    {
-                      "key": "username",
-                      "value": "{{usuarioAluno}}",
-                      "type": "string"
-                    },
-                    {
-                      "key": "password",
-                      "value": "{{senhaAluno}}",
-                      "type": "string"
-                    }
-                  ]
-                }
-              },
               "status": "",
               "code": 200,
               "_postman_previewlanguage": "json",
               "header": [
                 {
-                  "key": "X-Content-Type-Options",
-                  "value": "nosniff"
-                },
-                {
-                  "key": "X-XSS-Protection",
-                  "value": "0"
-                },
-                {
-                  "key": "Cache-Control",
-                  "value": "no-cache, no-store, max-age=0, must-revalidate"
-                },
-                {
-                  "key": "Pragma",
-                  "value": "no-cache"
-                },
-                {
-                  "key": "Expires",
-                  "value": "0"
-                },
-                {
-                  "key": "X-Frame-Options",
-                  "value": "DENY"
-                },
-                {
                   "key": "Content-Type",
                   "value": "application/json"
-                },
-                {
-                  "key": "Content-Length",
-                  "value": "540"
-                },
-                {
-                  "key": "Date",
-                  "value": "Wed, 18 Nov 2026 17:43:42 GMT"
-                },
-                {
-                  "key": "Connection",
-                  "value": "close"
                 }
               ],
               "cookie": [],
@@ -6759,79 +2962,13 @@
           "response": [
             {
               "name": "409 ",
-              "originalRequest": {
-                "method": "POST",
-                "header": [],
-                "url": {
-                  "raw": "{{baseUrl}}/resolucoes/1/submeter",
-                  "host": [
-                    "{{baseUrl}}"
-                  ],
-                  "path": [
-                    "resolucoes",
-                    "1",
-                    "submeter"
-                  ]
-                },
-                "auth": {
-                  "type": "basic",
-                  "basic": [
-                    {
-                      "key": "username",
-                      "value": "{{usuarioAluno}}",
-                      "type": "string"
-                    },
-                    {
-                      "key": "password",
-                      "value": "{{senhaAluno}}",
-                      "type": "string"
-                    }
-                  ]
-                }
-              },
               "status": "",
               "code": 409,
               "_postman_previewlanguage": "json",
               "header": [
                 {
-                  "key": "X-Content-Type-Options",
-                  "value": "nosniff"
-                },
-                {
-                  "key": "X-XSS-Protection",
-                  "value": "0"
-                },
-                {
-                  "key": "Cache-Control",
-                  "value": "no-cache, no-store, max-age=0, must-revalidate"
-                },
-                {
-                  "key": "Pragma",
-                  "value": "no-cache"
-                },
-                {
-                  "key": "Expires",
-                  "value": "0"
-                },
-                {
-                  "key": "X-Frame-Options",
-                  "value": "DENY"
-                },
-                {
                   "key": "Content-Type",
                   "value": "application/json"
-                },
-                {
-                  "key": "Transfer-Encoding",
-                  "value": "chunked"
-                },
-                {
-                  "key": "Date",
-                  "value": "Wed, 18 Nov 2026 17:43:42 GMT"
-                },
-                {
-                  "key": "Connection",
-                  "value": "close"
                 }
               ],
               "cookie": [],
@@ -6880,85 +3017,13 @@
           "response": [
             {
               "name": "200 ",
-              "originalRequest": {
-                "method": "GET",
-                "header": [],
-                "url": {
-                  "raw": "{{baseUrl}}/casos/2/resolucoes?status=SUBMETIDA",
-                  "host": [
-                    "{{baseUrl}}"
-                  ],
-                  "path": [
-                    "casos",
-                    "2",
-                    "resolucoes"
-                  ],
-                  "query": [
-                    {
-                      "key": "status",
-                      "value": "SUBMETIDA"
-                    }
-                  ]
-                },
-                "auth": {
-                  "type": "basic",
-                  "basic": [
-                    {
-                      "key": "username",
-                      "value": "{{usuarioAluno}}",
-                      "type": "string"
-                    },
-                    {
-                      "key": "password",
-                      "value": "{{senhaAluno}}",
-                      "type": "string"
-                    }
-                  ]
-                }
-              },
               "status": "",
               "code": 200,
               "_postman_previewlanguage": "json",
               "header": [
                 {
-                  "key": "X-Content-Type-Options",
-                  "value": "nosniff"
-                },
-                {
-                  "key": "X-XSS-Protection",
-                  "value": "0"
-                },
-                {
-                  "key": "Cache-Control",
-                  "value": "no-cache, no-store, max-age=0, must-revalidate"
-                },
-                {
-                  "key": "Pragma",
-                  "value": "no-cache"
-                },
-                {
-                  "key": "Expires",
-                  "value": "0"
-                },
-                {
-                  "key": "X-Frame-Options",
-                  "value": "DENY"
-                },
-                {
                   "key": "Content-Type",
                   "value": "application/json"
-                },
-                {
-                  "key": "Content-Length",
-                  "value": "620"
-                },
-                {
-                  "key": "Date",
-                  "value": "Wed, 18 Nov 2026 17:43:42 GMT"
-                },
-                {
-                  "key": "Connection",
-                  "value": "close"
                 }
               ],
               "cookie": [],
