@@ -118,5 +118,6 @@ nutricase/src/main/java/br/edu/unifio/nutricase
 ## Integrantes
 | Nome completo | ID acadêmico |
 |---|---|
-| Bruno Shiguematu | _a preencher_ |
-| Guilherme _(sobrenome a preencher)_ | _a preencher_ |
+| Bruno Shiguematu | 273611 |
+| Guilherme Coco da Costa | 272449 |
+| Matheus da Silva Gomes | 273137 |
