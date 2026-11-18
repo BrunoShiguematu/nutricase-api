@@ -8,7 +8,7 @@ ENV DEBIAN_FRONTEND=noninteractive
 # Instala as ferramentas que a base NÃO traz:
 #   mysql-server-8.0 -> banco usado pela aplicação (versão fixada, sem surpresas)
 #   git / git-lfs     -> versionamento de código
-#   curl              -> testar a API (ex.: curl http://localhost:8080/produtos)
+#   curl              -> testar a API (ex.: curl -u aluno:aluno123 http://localhost:8080/casos)
 #   unzip / zip       -> descompactar arquivos baixados
 # apt-get clean + rm  -> limpa o cache para a imagem ficar menor.
 RUN apt-get update && apt-get install -y \

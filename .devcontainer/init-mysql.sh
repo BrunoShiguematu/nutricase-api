@@ -31,13 +31,13 @@ echo "Configurando banco..."
 
 # O "mysql <<EOF" envia os comandos abaixo direto para o MySQL.
 mysql <<EOF
-CREATE DATABASE IF NOT EXISTS ecommerce
+CREATE DATABASE IF NOT EXISTS nutricase
 CHARACTER SET utf8mb4
 COLLATE utf8mb4_unicode_ci;
 
-CREATE USER IF NOT EXISTS 'sergio'@'%' IDENTIFIED BY '123@Mudar';
+CREATE USER IF NOT EXISTS 'nutricase'@'%' IDENTIFIED BY 'nutricase123';
 
-GRANT ALL PRIVILEGES ON ecommerce.* TO 'sergio'@'%';
+GRANT ALL PRIVILEGES ON nutricase.* TO 'nutricase'@'%';
 
 FLUSH PRIVILEGES;
 EOF
