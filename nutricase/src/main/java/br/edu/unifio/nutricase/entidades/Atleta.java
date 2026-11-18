@@ -20,10 +20,8 @@ public class Atleta {
     @Enumerated(EnumType.STRING)
     private Sexo sexo;
 
-    /** Peso em kg. */
     private Double peso;
 
-    /** Altura em cm. */
     private Double altura;
 
     private Double percentualGordura;

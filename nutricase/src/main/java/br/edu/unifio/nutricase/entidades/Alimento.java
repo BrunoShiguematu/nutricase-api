@@ -4,7 +4,6 @@ import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
 
-/** Valores nutricionais por 100 g do alimento. */
 @Entity
 @Getter
 @Setter

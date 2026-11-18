@@ -25,7 +25,6 @@ public class Caso {
     @Column(length = 2000)
     private String descricao;
 
-    /** Tolerância (em %) aceita entre a dieta montada e as metas do aluno. */
     private Integer toleranciaDieta;
 
     @ManyToOne(optional = false)

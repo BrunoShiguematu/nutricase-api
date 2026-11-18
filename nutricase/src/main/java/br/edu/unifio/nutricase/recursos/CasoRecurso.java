@@ -20,13 +20,11 @@ import br.edu.unifio.nutricase.entidades.StatusResolucao;
 public class CasoRecurso {
     private final CasoServico servico;
 
-    /** Consulta personalizada: GET /casos/busca?nivel=INTERMEDIARIO&modalidade=fut */
     @GetMapping("busca")
     public List<Caso> buscar(@RequestParam Nivel nivel, @RequestParam(defaultValue = "") String modalidade) {
         return servico.buscar(nivel, modalidade);
     }
 
-    /** Consulta personalizada (JPQL): GET /casos/{id}/resolucoes?status=SUBMETIDA */
     @GetMapping("{id}/resolucoes")
     public List<Resolucao> resolucoes(@PathVariable Long id, @RequestParam StatusResolucao status) {
         return servico.resolucoesPorStatus(id, status);

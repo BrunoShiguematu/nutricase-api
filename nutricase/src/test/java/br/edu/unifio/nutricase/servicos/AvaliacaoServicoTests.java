@@ -13,7 +13,6 @@ import br.edu.unifio.nutricase.entidades.Caso;
 import br.edu.unifio.nutricase.entidades.ItemRefeicao;
 import br.edu.unifio.nutricase.entidades.Resolucao;
 
-/** Teste unitário do cálculo (sem banco): valores por 100 g x quantidade. */
 class AvaliacaoServicoTests {
     private final AvaliacaoServico servico = new AvaliacaoServico();
 
@@ -34,7 +33,6 @@ class AvaliacaoServicoTests {
 
     @Test
     void dietaExatamenteNaMetaFicaDentroEmTudo() {
-        // 200 g de um alimento com 100 kcal, 10 C, 5 P, 2 G por 100 g -> 200 kcal, 20 C, 10 P, 4 G
         AvaliacaoDieta a = servico.avaliar(resolucao(10, 200, 20, 10, 4), List.of(item(100, 10, 5, 2, 200)));
         assertTrue(a.dietaAdequada());
         assertEquals(4, a.dentroDaTolerancia());
@@ -43,7 +41,6 @@ class AvaliacaoServicoTests {
 
     @Test
     void desvioAcimaDaToleranciaFicaFora() {
-        // obtido 120 kcal x meta 100 -> +20% (tolerância 10%)
         AvaliacaoDieta a = servico.avaliar(resolucao(10, 100, 10, 5, 2), List.of(item(120, 10, 5, 2, 100)));
         AvaliacaoMacro kcal = a.itens().get(0);
         assertEquals(120.0, kcal.obtido());

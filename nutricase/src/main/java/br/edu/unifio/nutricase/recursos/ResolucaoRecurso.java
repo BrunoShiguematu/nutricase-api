@@ -18,13 +18,11 @@ import br.edu.unifio.nutricase.dtos.AvaliacaoDieta;
 public class ResolucaoRecurso {
     private final ResolucaoServico servico;
 
-    /** Relatório da dieta contra as metas do aluno, sem submeter. */
     @GetMapping("{id}/avaliacao")
     public AvaliacaoDieta avaliar(@PathVariable Long id) {
         return servico.avaliar(id);
     }
 
-    /** Funcionalidade específica do PI: submete a resolução e devolve a avaliação. */
     @PostMapping("{id}/submeter")
     public AvaliacaoDieta submeter(@PathVariable Long id) {
         return servico.submeter(id);

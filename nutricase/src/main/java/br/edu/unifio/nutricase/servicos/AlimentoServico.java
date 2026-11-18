@@ -42,7 +42,6 @@ public class AlimentoServico {
         return alimentoRepositorio.save(preencher(buscarPorId(id), entrada));
     }
 
-    /** Regra: alimento já usado em alguma dieta não pode ser excluído. */
     @Transactional
     public void excluir(Long id) {
         Alimento alimento = buscarPorId(id);

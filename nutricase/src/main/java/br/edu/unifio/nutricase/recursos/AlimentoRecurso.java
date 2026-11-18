@@ -17,7 +17,6 @@ import lombok.RequiredArgsConstructor;
 public class AlimentoRecurso {
     private final AlimentoServico servico;
 
-    /** Consulta personalizada: GET /alimentos/busca?nome=arroz */
     @GetMapping("busca")
     public List<Alimento> buscarPorNome(@RequestParam(defaultValue = "") String nome) {
         return servico.buscarPorNome(nome);

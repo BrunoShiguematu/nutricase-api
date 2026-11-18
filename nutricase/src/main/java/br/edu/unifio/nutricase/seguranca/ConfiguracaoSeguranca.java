@@ -16,11 +16,6 @@ import org.springframework.security.web.SecurityFilterChain;
 
 import jakarta.servlet.http.HttpServletResponse;
 
-/**
- * Autenticação HTTP Basic com usuários em memória (apenas para teste).
- * PROFESSOR administra o banco de casos (atletas, casos, alimentos);
- * ALUNO consulta tudo e resolve casos (resoluções, refeições, itens, submissão).
- */
 @Configuration
 public class ConfiguracaoSeguranca {
 
@@ -62,7 +57,6 @@ public class ConfiguracaoSeguranca {
         return new BCryptPasswordEncoder();
     }
 
-    /** Usuários de TESTE em memória. */
     @Bean
     public UserDetailsService usuarios(PasswordEncoder codificador) {
         return new InMemoryUserDetailsManager(

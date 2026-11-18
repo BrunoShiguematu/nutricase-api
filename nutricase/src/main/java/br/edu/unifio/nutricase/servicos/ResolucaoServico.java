@@ -38,7 +38,6 @@ public class ResolucaoServico {
         return resolucaoRepositorio.findById(id).orElseThrow(() -> new RecursoNaoEncontradoException("Resolução", id));
     }
 
-    /** Regra: resolução submetida fica congelada (não aceita edição, exclusão nem novas refeições/itens). */
     public Resolucao buscarEditavel(Long id) {
         Resolucao resolucao = buscarPorId(id);
         if (resolucao.getStatus() == StatusResolucao.SUBMETIDA) {
@@ -73,11 +72,6 @@ public class ResolucaoServico {
         return avaliacaoServico.avaliar(resolucao, itemRefeicaoRepositorio.findByRefeicaoResolucaoId(id));
     }
 
-    /**
-     * Funcionalidade específica do PI: submete a resolução para correção.
-     * Exige metas preenchidas e uma dieta com pelo menos um item; depois congela a resolução
-     * e devolve a avaliação da dieta contra as metas do próprio aluno.
-     */
     @Transactional
     public AvaliacaoDieta submeter(Long id) {
         Resolucao resolucao = buscarEditavel(id);

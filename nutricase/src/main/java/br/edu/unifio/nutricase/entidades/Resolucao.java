@@ -7,7 +7,6 @@ import lombok.Setter;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 
-/** Tentativa de um aluno de resolver um caso: metas calculadas + dieta montada. */
 @Entity
 @Getter
 @Setter
@@ -28,7 +27,6 @@ public class Resolucao {
     @Column(length = 2000)
     private String justificativa;
 
-    /** Metas que o PRÓPRIO aluno calculou (a dieta é avaliada contra elas). */
     private Double metaKcal;
     private Double metaCarboidrato;
     private Double metaProteina;

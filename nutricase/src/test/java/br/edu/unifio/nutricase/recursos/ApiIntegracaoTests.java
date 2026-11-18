@@ -13,14 +13,12 @@ import org.springframework.http.MediaType;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.transaction.annotation.Transactional;
 
-/** Testes de ponta a ponta da API (cada teste é desfeito ao final). */
 @SpringBootTest
 @AutoConfigureMockMvc
 @Transactional
 class ApiIntegracaoTests {
     @Autowired private MockMvc mvc;
 
-    /** Extrai o primeiro "id" do JSON (o do próprio registro criado). */
     private static String primeiroId(String json) {
         var m = java.util.regex.Pattern.compile("\"id\":(\\d+)").matcher(json);
         return m.find() ? m.group(1) : "";

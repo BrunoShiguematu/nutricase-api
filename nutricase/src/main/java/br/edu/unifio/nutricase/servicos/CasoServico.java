@@ -51,7 +51,6 @@ public class CasoServico {
         return casoRepositorio.save(preencher(buscarPorId(id), entrada));
     }
 
-    /** Regra: caso que já tem resoluções não pode ser excluído (preserva o histórico dos alunos). */
     @Transactional
     public void excluir(Long id) {
         Caso caso = buscarPorId(id);

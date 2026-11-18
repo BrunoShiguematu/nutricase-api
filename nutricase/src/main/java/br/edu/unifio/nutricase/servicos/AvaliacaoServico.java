@@ -10,11 +10,6 @@ import br.edu.unifio.nutricase.entidades.Alimento;
 import br.edu.unifio.nutricase.entidades.ItemRefeicao;
 import br.edu.unifio.nutricase.entidades.Resolucao;
 
-/**
- * Cálculo determinístico da avaliação da dieta.
- * A dieta é comparada com as metas que o PRÓPRIO aluno calculou, não com valores de referência.
- * Valores dos alimentos são por 100 g.
- */
 @Service
 public class AvaliacaoServico {
 
